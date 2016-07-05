@@ -115,7 +115,6 @@
     <ClCompile Include="BasicClass.cpp" />
     <ClCompile Include="ClassExceptions.cpp" />
     <ClCompile Include="ClassOperatorOverloads.cpp" />
-    <ClCompile Include="CommonOperators.cpp" />
     <ClCompile Include="CommonOps.cpp" />
     <ClCompile Include="CondDir and Paramet Macros.cpp" />
     <ClCompile Include="Constructors(ruleof3).cpp" />
@@ -188,7 +187,6 @@
     <ClInclude Include="IntegerW.hpp" />
     <ClInclude Include="macros.hpp" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="SimpleClassTwoFiles.hpp" />
     <ClInclude Include="TwoFileClass.hpp" />
   </ItemGroup>
   <ItemGroup>
