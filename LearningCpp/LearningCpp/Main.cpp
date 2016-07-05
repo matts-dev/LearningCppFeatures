@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void typeidex();
+void access();
 int main (int argc, char** argv){
-	typeidex();
+	access();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

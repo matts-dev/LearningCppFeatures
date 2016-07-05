@@ -1,5 +1,5 @@
 //Matt Stone
-#include <stdio.h>
+#include <stdio.h> //#include<cstdio> //ensures that this will be in std namespace
 void pf(void){
 	int x = 987654321;
 	printf("Variable is: %d\n", x);

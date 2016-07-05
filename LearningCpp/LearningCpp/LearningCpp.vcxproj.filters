@@ -46,168 +46,12 @@
     <Filter Include="Resource Files\Source Files\10. Standard Template Library %28STL%29">
       <UniqueIdentifier>{14e3d601-5294-4ea5-b05f-30e5682dddcf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Source Files\Other.">
+      <UniqueIdentifier>{d02d8b79-4feb-498f-b9d5-6e9c76ad34c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConstVariables.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CppSwitches.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cstringexample.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DummyClass.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DynamicCast vs Typeidcpp.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="enum.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Escape sequences.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FunctionParameterReviewcpp.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="FunctionPointers.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="functor.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="includeDirective.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="includeGaurd.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IntDataType.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IntegerW.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IO - files.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IO - input with cin.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IO - output with cout.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="iterators.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lineCont.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lists.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="macroconstants.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="maps.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="namespaces.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NewDelete.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="nullptr.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator Functions (operator overloading).cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pairs.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ParamMacroCaveat.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointers.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Practice_ClassOpOverload2.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="printf.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Qualifiers.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="queuedeque.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="References.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="References2.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sets.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleCLassTwoFiles.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sizeofkeyword.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stacks.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StaticVsAutomaticStorage.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="String.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stringstreams.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StructsWithBitfields.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Structures.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ThisKeyword.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="trycatchinitializer.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwoDtors.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TwoFileClass.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Typedef.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TypeID.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="union.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Variadic.cpp">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vector.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ArraysAndCStrings.cpp">
@@ -215,9 +59,6 @@
     </ClCompile>
     <ClCompile Include="BasicClass.cpp">
       <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
-    </ClCompile>
-    <ClCompile Include="autokeyword.cpp">
-      <Filter>Resource Files\Source Files\6. Operators</Filter>
     </ClCompile>
     <ClCompile Include="ClassExceptions.cpp">
       <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
@@ -261,22 +102,187 @@
     <ClCompile Include="Implicit Explicit.cpp">
       <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
     </ClCompile>
+    <ClCompile Include="maps.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="pairs.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CppSwitches.cpp">
+      <Filter>Resource Files\Source Files\1. Basic Syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstVariables.cpp">
+      <Filter>Resource Files\Source Files\1. Basic Syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="lineCont.cpp">
+      <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="IntDataType.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="functor.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Escape sequences.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="includeGaurd.cpp">
+      <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="macroconstants.cpp">
+      <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="lists.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cstringexample.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="enum.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="IO - files.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="IO - input with cin.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="IO - output with cout.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerW.cpp">
+      <Filter>Resource Files\Source Files\6. Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionParameterReviewcpp.cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionPointers.cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="includeDirective.cpp">
+      <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="nullptr.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="autokeyword.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="iterators.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="namespaces.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDelete.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="queuedeque.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="References2.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="References.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice_ClassOpOverload2.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamMacroCaveat.cpp">
+      <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.cpp">
+      <Filter>Resource Files\Source Files\1. Basic Syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointers.cpp">
+      <Filter>Resource Files\Source Files\1. Basic Syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="stacks.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="sets.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Qualifiers.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="union.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator Functions (operator overloading).cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticVsAutomaticStorage.cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Variadic.cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="stringstreams.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoDtors.cpp">
+      <Filter>Resource Files\Source Files\0. Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeID.cpp">
+      <Filter>Resource Files\Source Files\6. Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Typedef.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeofkeyword.cpp">
+      <Filter>Resource Files\Source Files\6. Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="ThisKeyword.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="trycatchinitializer.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StructsWithBitfields.cpp">
+      <Filter>Resource Files\Source Files\5. Data Types</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoFileClass.cpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyClass.cpp">
+      <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple Inheritance.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCast vs Typeid.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMethodAccess.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DummyClass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IntegerW.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TwoFileClass.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="macros.hpp">
       <Filter>Resource Files\Source Files\3. The Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerW.hpp">
+      <Filter>Resource Files\Source Files\6. Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFileClass.hpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyClass.h">
+      <Filter>Resource Files\Source Files\Other.</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
