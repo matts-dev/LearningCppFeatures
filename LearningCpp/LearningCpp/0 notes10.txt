@@ -1,0 +1,24 @@
+initialize string with ""
+initialize string with char array
+get strings size
+get strings length (same as size)
+concatenate two strings
+are strings mutable? yes in c++ they are [no need for string builders]
+compare two strings (in c++, comparison actually compares the underlying string arrays [if stack variables])
+string greator/lesser operators - greater means later in the alphabeta(lexo)
+erase a section of a string 
+erase a single element of a string
+replace an intra-substring at a specific index with a another string
+get a substring 
+find a character (from begining)
+	what is returned if not found?
+find a character (front end)
+find a substring, after certain index
+
+
+
+
+
+
+
+

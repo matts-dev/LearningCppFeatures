@@ -1,0 +1,47 @@
+Topics:
+	-statements & expressoin
+	-identifiers
+	-defining variables
+	-pointers
+	-references
+	-arrays and strings
+	-conditionals
+	-branching conditional
+	-looping: while and do
+	-iterating with for
+	-using range-based forl oop
+	-using stdout
+
+
+Identifiers - name of variables
+	- may use latin letters, #s, and _
+	- may not BEGIN with number
+	- must not conflict with reserved word
+	- non-standard letters may be used - international character sets may not compile on other systems
+
+Strong type variables - value + type
+	-variable represent a value
+	-variable also represents atype
+
+Arrays and C strings
+	-c string is an array of characters
+	-c string's last character is 0
+		-this 0 can be used in loops as condition
+			-everything above/below 0 == true
+			-0 is equal to false
+	-arrays are pointers to index 0
+		-ptrs and arrays can be interchanged
+
+Strings
+	-operator overloads (==, <, >, )
+Iterators - not all supported, check api to see if container supports a type
+	Types
+		-Input iterator - only writing
+		-Output iterator - only reading
+		-Forward iterator - R/W
+		-Bidirectional iterator - two way
+		-Random Access iterator - using arthmetic or indexing
+	Multipass guarantee - allows repeated use to produce same output
+	Getting iterators
+		auto it = name.begin();	//not start
+		auto it = name.end();
