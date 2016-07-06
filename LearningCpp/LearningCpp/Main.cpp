@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void inhertConstrDtor();
+void multInhert();
 int main (int argc, char** argv){
-	inhertConstrDtor();
+	multInhert();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

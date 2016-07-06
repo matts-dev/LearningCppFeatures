@@ -273,6 +273,12 @@
     <ClCompile Include="InheritanceConstructorsDestructors.cpp">
       <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
     </ClCompile>
+    <ClCompile Include="Virtual.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

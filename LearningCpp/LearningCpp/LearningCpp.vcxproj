@@ -141,6 +141,7 @@
     <ClCompile Include="includeDirective.cpp" />
     <ClCompile Include="includeGaurd.cpp" />
     <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
+    <ClCompile Include="MultipleInheritance.cpp" />
     <ClCompile Include="Simple Inheritance.cpp" />
     <ClCompile Include="IntDataType.cpp" />
     <ClCompile Include="IntegerW.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="union.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
+    <ClCompile Include="Virtual.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DummyClass.h" />
