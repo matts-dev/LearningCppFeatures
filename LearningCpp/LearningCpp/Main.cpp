@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void access();
+void inhertConstrDtor();
 int main (int argc, char** argv){
-	access();
+	inhertConstrDtor();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

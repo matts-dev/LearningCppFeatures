@@ -132,6 +132,7 @@
     <ClCompile Include="extraPtrsAndRefs.cpp" />
     <ClCompile Include="FieldMethodAccess.cpp" />
     <ClCompile Include="FloatType.cpp" />
+    <ClCompile Include="FriendAllowingInheritance.cpp" />
     <ClCompile Include="FunctionBasicReview.cpp" />
     <ClCompile Include="FunctionParameterReviewcpp.cpp" />
     <ClCompile Include="FunctionPointers.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="Implicit Explicit.cpp" />
     <ClCompile Include="includeDirective.cpp" />
     <ClCompile Include="includeGaurd.cpp" />
+    <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
     <ClCompile Include="Simple Inheritance.cpp" />
     <ClCompile Include="IntDataType.cpp" />
     <ClCompile Include="IntegerW.cpp" />

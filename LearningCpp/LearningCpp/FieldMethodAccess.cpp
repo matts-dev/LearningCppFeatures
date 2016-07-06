@@ -12,18 +12,21 @@ class Base {
 public:
 	void speak() { cout << "\tBase Class Speaking (to be overloaded)!" << endl; };
 	virtual void virt() { cout << "\tBase class virutal" << endl; }
+	virtual~Base(){};	//good to have a virtual destructor if a class has any virtual methods.
 };
 
 class Derived : public Base {
 public:
 	//overload of speak
 	void speak() { cout << "\t!!Overloaded: Derived Class Speaking!!" << endl; }
+	//Notice, this is not declared virtual, but since the base class is virtual, this method (and its children) are virtual
 	void virt() { cout << "\tchild class virtual" << endl; }
 };
 
 //This class is used to through 3 node inheritance, most examples don't use this class.
 class ThreeDerived : public Derived {
 private:
+	//below is virtual because the highest class' method is virtual
 	void virt() { cout << "\t3rd derived private virtual" << endl; }
 };
 
