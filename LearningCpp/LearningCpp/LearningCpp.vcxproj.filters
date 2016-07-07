@@ -49,6 +49,15 @@
     <Filter Include="Resource Files\Source Files\Other.">
       <UniqueIdentifier>{d02d8b79-4feb-498f-b9d5-6e9c76ad34c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Source Files\11. Casts">
+      <UniqueIdentifier>{5a8645b0-ed16-48bf-8954-565121aa4a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\12. Smart Pointers">
+      <UniqueIdentifier>{99627aa7-66c2-457a-a953-8973450db5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\13. Move Semantics">
+      <UniqueIdentifier>{333e8246-d8c5-4f91-afe9-719ebca5df86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -264,9 +273,6 @@
     <ClCompile Include="DynamicCast vs Typeid.cpp">
       <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
     </ClCompile>
-    <ClCompile Include="FieldMethodAccess.cpp">
-      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
-    </ClCompile>
     <ClCompile Include="FriendAllowingInheritance.cpp">
       <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
     </ClCompile>
@@ -278,6 +284,21 @@
     </ClCompile>
     <ClCompile Include="MultipleInheritance.cpp">
       <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMethodAccessANDvirtual.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="reinterpretcast.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFunctions (pure virtual).cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="makingCppInterface.cpp">
+      <Filter>Resource Files\Source Files\7. Object Inheritance %28polymorphic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="sketch.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

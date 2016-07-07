@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void multInhert();
+void sketch();
 int main (int argc, char** argv){
-	multInhert();
+	sketch();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
