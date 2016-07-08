@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void sketch();
+void RTTIDynCastTypeID();
 int main (int argc, char** argv){
-	sketch();
+	RTTIDynCastTypeID();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
