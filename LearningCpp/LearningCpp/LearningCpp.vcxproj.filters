@@ -300,6 +300,12 @@
     <ClCompile Include="sketch.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="staticcast.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
+    <ClCompile Include="inline.cpp">
+      <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

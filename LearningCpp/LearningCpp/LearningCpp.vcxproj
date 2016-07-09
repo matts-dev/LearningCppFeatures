@@ -142,6 +142,7 @@
     <ClCompile Include="includeDirective.cpp" />
     <ClCompile Include="includeGaurd.cpp" />
     <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
+    <ClCompile Include="inline.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="sizeofkeyword.cpp" />
     <ClCompile Include="sketch.cpp" />
     <ClCompile Include="stacks.cpp" />
+    <ClCompile Include="staticcast.cpp" />
     <ClCompile Include="StaticVsAutomaticStorage.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="stringstreams.cpp" />

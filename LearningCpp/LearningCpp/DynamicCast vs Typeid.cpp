@@ -42,8 +42,8 @@ void RTTIDynCastTypeID() {
 
 	//clean up memory
 	for (shape* sptr : shapes) delete sptr;
-}
 
+}
 // --------------------------------------------------------------------------------
 
 vector<circle*> getCirlcesTypeId(vector<shape*> list) {

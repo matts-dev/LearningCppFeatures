@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void RTTIDynCastTypeID();
+void staticcasts();
 int main (int argc, char** argv){
-	RTTIDynCastTypeID();
+	staticcasts();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
