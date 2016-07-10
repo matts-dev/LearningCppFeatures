@@ -306,6 +306,18 @@
     <ClCompile Include="inline.cpp">
       <Filter>Resource Files\Source Files\2. Defining Functions</Filter>
     </ClCompile>
+    <ClCompile Include="typeidRTTI.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamiccastcpp.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
+    <ClCompile Include="constcast.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
+    <ClCompile Include="CstyleCast.cpp">
+      <Filter>Resource Files\Source Files\11. Casts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -322,6 +334,9 @@
     </ClInclude>
     <ClInclude Include="DummyClass.h">
       <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClInclude>
+    <ClInclude Include="inhert.hpp">
+      <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

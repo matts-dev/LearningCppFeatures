@@ -34,7 +34,6 @@ void staticcasts() {
 	double d9 = sqrt(static_cast<double>(i9));
 	cout << d9 << endl;
 
-
 }
 
 void reinterpretcasts2() {

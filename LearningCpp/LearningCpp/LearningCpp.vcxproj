@@ -118,15 +118,18 @@
     <ClCompile Include="ClassOperatorOverloads.cpp" />
     <ClCompile Include="CommonOps.cpp" />
     <ClCompile Include="CondDir and Paramet Macros.cpp" />
+    <ClCompile Include="constcast.cpp" />
     <ClCompile Include="Constructors(ruleof3).cpp" />
     <ClCompile Include="ConstSafe.cpp" />
     <ClCompile Include="ConstVariables.cpp" />
     <ClCompile Include="ConversionOperator.cpp" />
     <ClCompile Include="CppSwitches.cpp" />
     <ClCompile Include="cstringexample.cpp" />
+    <ClCompile Include="CstyleCast.cpp" />
     <ClCompile Include="Demos.cpp" />
     <ClCompile Include="DummyClass.cpp" />
     <ClCompile Include="DynamicCast vs Typeid.cpp" />
+    <ClCompile Include="dynamiccastcpp.cpp" />
     <ClCompile Include="enum.cpp" />
     <ClCompile Include="Escape sequences.cpp" />
     <ClCompile Include="exceptions.cpp" />
@@ -188,6 +191,7 @@
     <ClCompile Include="TwoFileClass.cpp" />
     <ClCompile Include="Typedef.cpp" />
     <ClCompile Include="TypeID.cpp" />
+    <ClCompile Include="typeidRTTI.cpp" />
     <ClCompile Include="union.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
@@ -195,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DummyClass.h" />
+    <ClInclude Include="inhert.hpp" />
     <ClInclude Include="IntegerW.hpp" />
     <ClInclude Include="macros.hpp" />
     <ClInclude Include="resource.h" />

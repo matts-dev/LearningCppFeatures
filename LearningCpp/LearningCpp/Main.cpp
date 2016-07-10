@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void staticcasts();
+void constcasts();
 int main (int argc, char** argv){
-	staticcasts();
+	constcasts();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
