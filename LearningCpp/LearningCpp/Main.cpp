@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void constcasts();
+void genFunctRtti();
 int main (int argc, char** argv){
-	constcasts();
+	genFunctRtti();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

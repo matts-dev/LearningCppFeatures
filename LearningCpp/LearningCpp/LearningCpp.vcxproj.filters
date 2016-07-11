@@ -318,6 +318,12 @@
     <ClCompile Include="CstyleCast.cpp">
       <Filter>Resource Files\Source Files\11. Casts</Filter>
     </ClCompile>
+    <ClCompile Include="GenericFunctions%28Templates%29.cpp">
+      <Filter>Resource Files\Source Files\8. Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericFunctionsRTTI.cpp">
+      <Filter>Resource Files\Source Files\8. Template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

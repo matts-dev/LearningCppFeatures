@@ -25,5 +25,6 @@ namespace Inherit {
 	public:
 		void speakV() {	cout << "bottom virtual" << endl;	}		//virtual declared in base class
 		void speak() { cout << "bottom non-virtual" << endl; }
+		void botOnly() {cout << "this is only available in the bottom subclass" << endl;}
 	};
 }// end namespace inherit

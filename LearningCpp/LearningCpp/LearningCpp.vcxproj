@@ -140,7 +140,9 @@
     <ClCompile Include="FunctionBasicReview.cpp" />
     <ClCompile Include="FunctionParameterReviewcpp.cpp" />
     <ClCompile Include="FunctionPointers.cpp" />
+    <ClCompile Include="GenericFunctions%28Templates%29.cpp" />
     <ClCompile Include="functor.cpp" />
+    <ClCompile Include="GenericFunctionsRTTI.cpp" />
     <ClCompile Include="Implicit Explicit.cpp" />
     <ClCompile Include="includeDirective.cpp" />
     <ClCompile Include="includeGaurd.cpp" />

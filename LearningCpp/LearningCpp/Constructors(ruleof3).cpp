@@ -8,9 +8,9 @@ using namespace std;
 
 class A623{
 private:
-	string name;
+	string name;	//use initialize lists on objects so one obj is created, not two objects 
 	int age;
-	DummyClass* heapVar = nullptr;
+	DummyClass* heapVar = nullptr;	//initialization in body is valid c++11
 protected:
 public:
 	A623();
