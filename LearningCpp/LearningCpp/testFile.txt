@@ -1,3 +1,0 @@
-This should overwrite the contents of the file by default
-outfile is on trunct mode not append
-this is the third line

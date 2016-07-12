@@ -324,6 +324,15 @@
     <ClCompile Include="GenericFunctionsRTTI.cpp">
       <Filter>Resource Files\Source Files\8. Template</Filter>
     </ClCompile>
+    <ClCompile Include="TemplateClassStack.cpp">
+      <Filter>Resource Files\Source Files\8. Template</Filter>
+    </ClCompile>
+    <ClCompile Include="cfiles.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cbinaryfiles.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -343,6 +352,9 @@
     </ClInclude>
     <ClInclude Include="inhert.hpp">
       <Filter>Resource Files\Source Files\4. Classes and Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateClassStack.hpp">
+      <Filter>Resource Files\Source Files\8. Template</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

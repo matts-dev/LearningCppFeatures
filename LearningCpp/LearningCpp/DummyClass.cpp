@@ -8,19 +8,17 @@ DummyClass::DummyClass()
 	intializer();
 }
 
-DummyClass::DummyClass(bool verbose) :verbose(verbose){
+DummyClass::DummyClass(bool verbose) :verbose(verbose) {
 	if (verbose)
 		std::cout << this << " was constructed" << std::endl;
 	intializer();
 }
 
-DummyClass::DummyClass(int value){
+DummyClass::DummyClass(int value) {
 	verbose = false;
 	this->value = value;
 	intializer();
 }
-
-
 
 DummyClass::~DummyClass()
 {
@@ -29,32 +27,46 @@ DummyClass::~DummyClass()
 	intializer();
 }
 
-void DummyClass::intializer(){
+void DummyClass::intializer() {
 	id++;
 	thisId = id;
+	if (name == "") {
+		if (verbose)
+			std::cout << "no name provided, giving name bob" << std::endl;
+		name = "bob";
+	}
 }
 
-void DummyClass::saySomething(){
+void DummyClass::saySomething() {
 	std::cout << this << " is talking " << std::endl;
 }
 
-int DummyClass::echoInt(int echo){
+int DummyClass::echoInt(int echo) {
 	return echo;
 }
 
-int DummyClass::getValue(){
+int DummyClass::getValue() {
 	return value;
 }
 
-const std::string& DummyClass::alive() const{
+const std::string& DummyClass::alive() const {
 	//testing static variables in a class context.
 	static std::string a = ("alive" + std::to_string(thisId));//normally, this might have been a field.
 	return (a);// + thisId);
 }
 
+void DummyClass::setName(std::string& name) {
+	this->name = name;
+}
+
+const std::string& DummyClass::getName() const {
+	return this->name;
+}
+
+
 //think of .hpp as applying a static filter to this method 
 //similar to how returning a const string& (when source is mutable string) applies a constant filter to return value
-void DummyClass::staticmethod(){
+void DummyClass::staticmethod() {
 	std::cout << "this is a static method" << std::endl;
 }
 

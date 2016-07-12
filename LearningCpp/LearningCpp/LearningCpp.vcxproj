@@ -74,6 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -114,6 +115,7 @@
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="BasicClass.cpp" />
+    <ClCompile Include="cbinaryfiles.cpp" />
     <ClCompile Include="ClassExceptions.cpp" />
     <ClCompile Include="ClassOperatorOverloads.cpp" />
     <ClCompile Include="CommonOps.cpp" />
@@ -135,6 +137,7 @@
     <ClCompile Include="exceptions.cpp" />
     <ClCompile Include="extraPtrsAndRefs.cpp" />
     <ClCompile Include="FieldMethodAccessANDvirtual.cpp" />
+    <ClCompile Include="cfiles.cpp" />
     <ClCompile Include="FloatType.cpp" />
     <ClCompile Include="FriendAllowingInheritance.cpp" />
     <ClCompile Include="FunctionBasicReview.cpp" />
@@ -186,6 +189,7 @@
     <ClCompile Include="stringstreams.cpp" />
     <ClCompile Include="StructsWithBitfields.cpp" />
     <ClCompile Include="Structures.cpp" />
+    <ClCompile Include="TemplateClassStack.cpp" />
     <ClCompile Include="TertiaryConditionalExpression.cpp" />
     <ClCompile Include="ThisKeyword.cpp" />
     <ClCompile Include="trycatchinitializer.cpp" />
@@ -205,6 +209,7 @@
     <ClInclude Include="IntegerW.hpp" />
     <ClInclude Include="macros.hpp" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="TemplateClassStack.hpp" />
     <ClInclude Include="TwoFileClass.hpp" />
   </ItemGroup>
   <ItemGroup>
