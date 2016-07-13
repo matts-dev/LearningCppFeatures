@@ -115,6 +115,7 @@
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="BasicClass.cpp" />
+    <ClCompile Include="c system errors - errno.cpp" />
     <ClCompile Include="cbinaryfiles.cpp" />
     <ClCompile Include="ClassExceptions.cpp" />
     <ClCompile Include="ClassOperatorOverloads.cpp" />
@@ -127,6 +128,7 @@
     <ClCompile Include="ConversionOperator.cpp" />
     <ClCompile Include="CppSwitches.cpp" />
     <ClCompile Include="cstringexample.cpp" />
+    <ClCompile Include="cstringfunctions.cpp" />
     <ClCompile Include="CstyleCast.cpp" />
     <ClCompile Include="Demos.cpp" />
     <ClCompile Include="DummyClass.cpp" />
@@ -136,8 +138,10 @@
     <ClCompile Include="Escape sequences.cpp" />
     <ClCompile Include="exceptions.cpp" />
     <ClCompile Include="extraPtrsAndRefs.cpp" />
+    <ClCompile Include="fgetsfputs.cpp" />
     <ClCompile Include="FieldMethodAccessANDvirtual.cpp" />
     <ClCompile Include="cfiles.cpp" />
+    <ClCompile Include="file-renamedelete.cpp" />
     <ClCompile Include="FloatType.cpp" />
     <ClCompile Include="FriendAllowingInheritance.cpp" />
     <ClCompile Include="FunctionBasicReview.cpp" />
@@ -153,6 +157,7 @@
     <ClCompile Include="inline.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
+    <ClCompile Include="printf variants.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
     <ClCompile Include="Simple Inheritance.cpp" />
     <ClCompile Include="IntDataType.cpp" />
@@ -192,6 +197,7 @@
     <ClCompile Include="TemplateClassStack.cpp" />
     <ClCompile Include="TertiaryConditionalExpression.cpp" />
     <ClCompile Include="ThisKeyword.cpp" />
+    <ClCompile Include="time.cpp" />
     <ClCompile Include="trycatchinitializer.cpp" />
     <ClCompile Include="TwoDtors.cpp" />
     <ClCompile Include="TwoFileClass.cpp" />

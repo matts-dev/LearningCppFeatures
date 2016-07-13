@@ -333,6 +333,24 @@
     <ClCompile Include="cbinaryfiles.cpp">
       <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
     </ClCompile>
+    <ClCompile Include="file-renamedelete.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="fgetsfputs.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="printf variants.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cstringfunctions.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="c system errors - errno.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>Resource Files\Source Files\9. Stanard Library %28SL%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

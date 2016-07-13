@@ -14,7 +14,7 @@ namespace j12 {
 		int maxSize = 100;
 		T* underArray;
 	public:
-		Stack(int size);
+		explicit Stack(int size);
 		~Stack();
 		void push(T& element);
 		T& pop();

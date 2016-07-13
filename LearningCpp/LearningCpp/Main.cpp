@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void binaryfiles();
+void times();
 int main (int argc, char** argv){
-	binaryfiles();
+	times();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
