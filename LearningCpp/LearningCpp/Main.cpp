@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void times();
+void decltypes();
 int main (int argc, char** argv){
-	times();
+	decltypes();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

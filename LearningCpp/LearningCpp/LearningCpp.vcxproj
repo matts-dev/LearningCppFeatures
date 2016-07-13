@@ -126,10 +126,12 @@
     <ClCompile Include="ConstSafe.cpp" />
     <ClCompile Include="ConstVariables.cpp" />
     <ClCompile Include="ConversionOperator.cpp" />
+    <ClCompile Include="copyinstance.cpp" />
     <ClCompile Include="CppSwitches.cpp" />
     <ClCompile Include="cstringexample.cpp" />
     <ClCompile Include="cstringfunctions.cpp" />
     <ClCompile Include="CstyleCast.cpp" />
+    <ClCompile Include="decltype.cpp" />
     <ClCompile Include="Demos.cpp" />
     <ClCompile Include="DummyClass.cpp" />
     <ClCompile Include="DynamicCast vs Typeid.cpp" />
@@ -210,6 +212,7 @@
     <ClCompile Include="Virtual.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="copyinstance.hpp" />
     <ClInclude Include="DummyClass.h" />
     <ClInclude Include="inhert.hpp" />
     <ClInclude Include="IntegerW.hpp" />

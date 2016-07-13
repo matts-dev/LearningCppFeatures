@@ -37,7 +37,10 @@ void times() {
 	char buffer1[buffersize];
 	size_t len = strftime(buffer1, buffersize, "%Y-%m-%d  %H-%M-%S \ndate token -> %D", &gmt);
 	printf(buffer1, len);
-
-
-
 }
+
+//self test
+
+//what is the typedef for time?						<time_t		, its 64 bit number>
+//get the number of seconds since 1970		
+//what are two structures for holding time?			<tm, you can save either gmt and local>
