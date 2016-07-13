@@ -66,12 +66,12 @@ void decltypes() {
 
 	//create an undefined type object on heap
 	//auto uktypeptr = new decltype(*bptr)();
-	auto uktypeptr = new std::remove_reference<decltype(*bptr)>::type(); //creates base objects, not polymorphic
-	//auto uktypeptr = new std::remove_pointer<decltype(bptr)>::type();	//creates base objects, not polymorphic
-	uktypeptr->speakV();
+	//auto uktypeptr = new std::remove_reference<decltype(*bptr)>::type(); //creates base objects, not polymorphic
+	auto uktypePtr = new std::remove_pointer<decltype(bptr)>::type();	//creates base objects, not polymorphic
+	//uktypeptr->speakV();
 
 	delete bptr;
-	delete uktypeptr;
+	delete uktypePtr;
 }
 
 //silly trailing return type
