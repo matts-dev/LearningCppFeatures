@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
+//this class was written before I had officially learned how to write classes, hence no initializer lists
 class DummyClass
 {
 	static int id;
@@ -13,7 +14,7 @@ public:
 	DummyClass();
 	DummyClass(bool verbose);
 	DummyClass(int value);
-	//DummyClass(int, bool);
+	DummyClass(int, bool);
 	~DummyClass();
 	void intializer();
 	void saySomething();		//not const safe because of function pointers file, made that before leanrning of const safe

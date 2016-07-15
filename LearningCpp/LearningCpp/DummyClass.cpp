@@ -20,6 +20,12 @@ DummyClass::DummyClass(int value) {
 	intializer();
 }
 
+DummyClass::DummyClass(int value, bool verbose) {
+	this->verbose = verbose;
+	this->value = value;
+	intializer();
+}
+
 DummyClass::~DummyClass()
 {
 	if (verbose)

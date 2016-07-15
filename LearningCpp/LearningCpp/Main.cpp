@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void decltypes();
+void ptrs_shared();
 int main (int argc, char** argv){
-	decltypes();
+	ptrs_shared();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
