@@ -366,6 +366,12 @@
     <ClCompile Include="sharedptrs.cpp">
       <Filter>Resource Files\Source Files\12. Smart Pointers</Filter>
     </ClCompile>
+    <ClCompile Include="weakptrs.cpp">
+      <Filter>Resource Files\Source Files\12. Smart Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="customDeleter.cpp">
+      <Filter>Resource Files\Source Files\12. Smart Pointers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

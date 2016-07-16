@@ -1,18 +1,20 @@
-
+//file for quick testing
 
 #include<iostream>
+#include<memory>
+#include"verboseclasses.h"
 using namespace std;
+using sptrs::Base;
 
-class basej7x {
-public:
-	basej7x(int i = 0) {}
-};
-
-class derivedj7x : public basej7x {
-
-};
-
-
+//testing using {} to destroy a dangling pointer
 void sketch() {
-	derivedj7x test;
+	shared_ptr<Base> smartBasePtr;
+	{	//prevents dangling pointer
+		Base* bptr1 = new Base;
+		//smartBasePtr.reset(bptr1);	//using dangling pointer
+
+		//attempt to make the below exception safe is to call new before
+		smartBasePtr = shared_ptr<Base>(bptr1, [](Base* p) {cout << "deleted"; delete p; });
+	}
+	smartBasePtr->speakV();
 }

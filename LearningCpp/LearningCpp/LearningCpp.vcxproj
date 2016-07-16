@@ -131,6 +131,7 @@
     <ClCompile Include="cstringexample.cpp" />
     <ClCompile Include="cstringfunctions.cpp" />
     <ClCompile Include="CstyleCast.cpp" />
+    <ClCompile Include="customDeleter.cpp" />
     <ClCompile Include="decltype.cpp" />
     <ClCompile Include="Demos.cpp" />
     <ClCompile Include="DummyClass.cpp" />
@@ -213,6 +214,7 @@
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="verboseclasses.cpp" />
     <ClCompile Include="Virtual.cpp" />
+    <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="verboseclasses.h" />

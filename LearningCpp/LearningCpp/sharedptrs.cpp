@@ -13,13 +13,22 @@ using sptrs::Derived;
 //shared pointers only call the delete function when the user_count (reference count) becomes zero
 
 void ptrs_shared() {
-// ----------------------------- CREATING SHARED POINTERS -----------------------------
+	// ----------------------------- CREATING SHARED POINTERS -----------------------------
 	cout << " ----------------------------- CREATING SHARED POINTERS -----------------------------" << endl;
 	//shared pointers can be created using their constructors
 	shared_ptr<Base> sptr1(new Base);		//this is the way I prefer to make them, though I believe make_shared is the standard way
-	shared_ptr<Base> sptr2(new Derived);
+	shared_ptr<Base> sptr2(new Derived);	//This method of assignment is not exception safe 
 	sptr1->speakV();
 	sptr2->speakV();
+
+	//best way to make a shared pointer
+	shared_ptr<DummyClass> exceptSafe = make_shared<DummyClass>(1, false); //exception safe, combines creation of object and pointer in 1 step		
+
+	//------ CUSTOM DELETER ---- (using lambda function at end, but function could be defined somewhere else)
+	//shared_ptr<Base> smartBasePtr = shared_ptr<Base>(new Base, [](Base* p) {cout << "deleted"; delete p; });
+
+	//------- DELETE[] ---- deleting an shared pointer to an array requires a custom deleter
+	//shared_ptr<Base> arraySPtr(new Base[3], [](Base* ptr) {cout << "del[]"; delete[] ptr; });
 
 	//creating a nullptr
 	shared_ptr<Base> nullptrdemonstration;	//will behave like nullptr in if statements
@@ -35,7 +44,7 @@ void ptrs_shared() {
 	//shared_ptr<Base> sptr3 = make_shared<Base>(*sptr2);	//get object from another shared pointers
 
 	//getting raw pointers (ADVISED AGAINST - makes user_count invalid)
-	Base* bptr = &(*sptr2);	//getting normal ptr,   
+	Base* bptr = &(*sptr2);	//getting normal ptr, again -- this is bad!
 	//Base* bptr = sptr2;	//INVALID; cannot get normal ptr this way. Must dereference object, then get address
 
 // ---------------------------- USING SHARED PTRS -----------------------------
@@ -45,7 +54,7 @@ void ptrs_shared() {
 	auto dcptr2 = dcptr1;
 	//you can print how many shared pointers point to an object
 	cout << "there are " << dcptr1.use_count() << "shared pointers pointing to this object." << endl;
-	
+
 	//demonstrate how sptr3 can circumvent user_count by getting a raw pointer, then making new shared pointer from raw ptr
 	//cout << sptr2.use_count() << endl;
 	//cout << sptr3.use_count() << endl;
@@ -57,17 +66,17 @@ void ptrs_shared() {
 
 
 	//equal operators
-	cout << endl <<"analyzing equal operators" << endl;
+	cout << endl << "analyzing equal operators" << endl;
 	cout << "(sptr2 == sptr4) is: " << (sptr2 == sptr4) << endl;
 	cout << "(*sptr2 == *sptr4) is: " << (sptr2 == sptr4) << endl << endl;
 
 	//using usecount
 	cout << "sptr4 is: " << sptr4.get() << ".\nsptr2 is: " << sptr2.get() << endl;
-	cout <<"sptr2 user count of: " <<sptr2.use_count() << endl;
+	cout << "sptr2 user count of: " << sptr2.use_count() << endl;
 	sptr4.reset();	//redces user count
 	cout << "reset() sptr4" << endl;
 	cout << "sptr2 user count of: " << sptr2.use_count() << endl << endl;
-	
+
 	/* //below shows that reseting with a new instance also drops user count
 	sptr4 = sptr2;
 	cout << "set sptr4 to sptr2" << endl;
@@ -85,22 +94,28 @@ void ptrs_shared() {
 	/*
 	cout << endl << "swapping operations" << endl;
 	auto ptrA = make_shared<Base>();
-	shared_ptr<Base> ptrB = make_shared<Derived>();	
+	shared_ptr<Base> ptrB = make_shared<Derived>();
 	cout << "done with constructors for swaping" << endl;
 	ptrA.swap(ptrB);	//no constructors called when using smart pointer member function of swap
-	swap(ptrA, ptrB);	//no contructors on 
+	swap(ptrA, ptrB);	//no contructors on
 	*/
 	//cout << "dtor called when using objects, implicit copy constructor?" << endl;
 	//swap(*ptrA, *ptrB);
 
 	// ---------------------------- DYNAMIC CAST ----------------------------
 	cout << "----------------------------- DYNAMIC CASTS -----------------------------" << endl;
+	//static_pointer_cast<type>(sPtr)			// use these functions for casts like normal pointers
+	//const_pointer_cast<type>(sPtr)
+	//dynamic_pointer_cast<type>(sPtr)
+
+
+
 	//creating a variable to easily see a hidden derived pointer
 	shared_ptr<Base> polyDerivedPointer = sptr2;
 
 	// ------- DYNAMIC_POINTER_CAST METHOD--- - The ideal way of dynamically casting smart pointers
 	shared_ptr<Derived> castSharedPtr;	//no arguments will point to nullptr;
-	
+
 	//syntax: newCastedPointerType = dynamic_pointer_cast<CLASSTYPE, not sharedptr type> (shared pointer to cast from);
 	//castSharedPtr = dynamic_pointer_cast<Derived>(sptr1); // invalid cast, dyn type is base
 	castSharedPtr = dynamic_pointer_cast<Derived>(polyDerivedPointer);	//valid cast, dyn type is derived
@@ -108,16 +123,18 @@ void ptrs_shared() {
 	if (castSharedPtr) {
 		cout << "dynamic_pointer_cast passed" << endl;
 		castSharedPtr->speakV();
-	}else {	cout << "dynamic_pointer_cast failed" << endl;	}
+	}
+	else { cout << "dynamic_pointer_cast failed" << endl; }
 	// ----------------------------------------------------------------------------------------
 
-	// ------- RAW PTR METHOD- Not recommended - to check if subclass, get temp raw pointer, dyn cast, check, do work, then abandon raw ptr
+	// ------- RAW PTR METHOD- Not recommended.  method to check if subclass: get temp raw pointer, dyn cast, check, do work, then abandon raw ptr
 	Base* tempPtr1 = &*sptr2;
 	Derived* tempPtr2 = dynamic_cast<Derived*>(tempPtr1);		//you can combine the the line above
 	if (tempPtr2 != nullptr) {	//could just use if(tempPtr2), but i'm being explicit
 		cout << "valid cast";
 		tempPtr2->speakV();
-	}tempPtr1 = nullptr; //abandon other temp pointer to ensure smart_pointers stay valid
+	}
+	tempPtr1 = nullptr; //abandon dangling ptr to ensure smart_pointers stay valid
 	// ----------------------------------------------------------------------------------------
 
 
