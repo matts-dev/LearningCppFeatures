@@ -53,7 +53,6 @@ void exceptions(void){
 void idontexcept(void) throw(){
 	//no arguments in throw, this method shouldn't throw an exception
 	//the throw() can be populated with exception arguments e.g. throw(a, b ,c)
-
 	//the throw() is an exception specification 
 }
 
@@ -77,7 +76,6 @@ void customException(void) throw(MyException, exception) {
 }
 
 void broken(void){
-	//I dislike microsoft visual studio because it doesn't clue to errors
 }
 
 void brokenWrapper(void){
@@ -93,7 +91,7 @@ void brokenWrapper(void){
 
 //Why? article summarized drastically
 //Exception specifications do not guarantee the listed exceptions, they just suggest
-//	-many compilers (including ms vistual studio) do not have good implmentaitons of handling exceptions
+//	-many compilers (including ms vistual studio) do not have good implementations of handling exceptions
 //  shadow types (messing up c's strongly typed system)
 //		-typedefs do not allow exception specifications
 // <more stuff in the article>

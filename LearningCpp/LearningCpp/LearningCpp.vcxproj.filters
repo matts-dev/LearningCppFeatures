@@ -58,6 +58,9 @@
     <Filter Include="Resource Files\Source Files\13. Move Semantics">
       <UniqueIdentifier>{333e8246-d8c5-4f91-afe9-719ebca5df86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Source Files\14. Threads and Concurrent Programming">
+      <UniqueIdentifier>{30df58f2-3d28-4522-af04-2f544798da0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -372,6 +375,21 @@
     <ClCompile Include="customDeleter.cpp">
       <Filter>Resource Files\Source Files\12. Smart Pointers</Filter>
     </ClCompile>
+    <ClCompile Include="stdmove.cpp">
+      <Filter>Resource Files\Source Files\13. Move Semantics</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCtor.cpp">
+      <Filter>Resource Files\Source Files\13. Move Semantics</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAssignment.cpp">
+      <Filter>Resource Files\Source Files\13. Move Semantics</Filter>
+    </ClCompile>
+    <ClCompile Include="copyandswap.cpp">
+      <Filter>Resource Files\Source Files\13. Move Semantics</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -405,5 +423,8 @@
   <ItemGroup>
     <Text Include="test.txt" />
     <Text Include="testFile.txt" />
+    <Text Include="10. SelfTest.txt">
+      <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
+    </Text>
   </ItemGroup>
 </Project>

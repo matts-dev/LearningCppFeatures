@@ -148,3 +148,20 @@ void ioIfstream(void){
 		file.close();
 	}
 }
+
+//self test
+//create an ostream for a filename
+//check if file sucessfully opened
+//insert data into ostream (file)
+//close ostream
+//create an istream for a filename
+//check if file opened
+//check if file has more to read
+//extract data
+//save data
+//close istream
+//advanced
+//open an ostream that will delete  the file if it exists			<truncate>
+//find the first character of a file								<seekp(0, ios::beg)>		//p for put
+//open a istream for a file
+//after reading data, go back to beginning of ifle 					<seekg(0, ios::beg)>		//g for get

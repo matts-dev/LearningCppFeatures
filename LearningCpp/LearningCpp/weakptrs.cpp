@@ -23,7 +23,7 @@ void weakptrs() {
 		//weak1->speakV();	//invalid
 	weak1.lock()->speakV();	//this is how you use a weak pointer
 
-	//lock returns a shared pointer, generally this isn't stored, but used, then dtor is called (like above)
+	//lock returns a shared pointer, generally this isn't stored, but used, then ptr's dtor is called (like above)
 	//below is explicitly showing what happens.
 	shared_ptr<Base> shared = weak1.lock();	//this increments use_count
 	shared->speakV();
@@ -38,9 +38,15 @@ void weakptrs() {
 		cout << "pointer valid, count is: " << weak1.use_count() << endl;
 		weak1.lock()->speakV();
 	}
-
-
-
-
-
 }
+
+
+//self test
+//make a weak pointer
+//use a weak pointer
+
+//what happens if a weak pointer's parent shared pointer becomes nullptr?	<the weak pointer is nullptr>
+//what does the lock() function return?			<a shared pointer>
+
+
+

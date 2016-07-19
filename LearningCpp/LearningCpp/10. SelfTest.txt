@@ -1,0 +1,208 @@
+/*VECTOR*/
+//Self test concepts:
+//declare a vector
+//set the space of the underlying array
+//set the accessable portion of the array
+//get the size of the array
+//assign something to every active index of the array
+//increase the size of an array by adding something
+//access elements using .at()
+//access elements using[]
+//obtain vectors start and end iterators (without using auto)
+//insert an element in the middle of an array									(hint: iterators)
+//what happened to vector size?
+//erase an element from the middle of the
+//what happened to vector size?
+//loop through a vector using an iterator
+//-bonus: loop through using size()
+//clear the array
+//-using resize()
+//-using .clear()
+//clear() does what to contained objects?
+//clear calls destructor on stack objects, but does not call delete on heap objects
+//use a for-each to print the vector
+//init pointer vector with {}
+//old vectors (before cpp11) - init these
+//access teh front of an array
+//access the back of an array
+
+
+
+/*String*/
+//initialize string using "";
+//get the memory size of a string value		(sizeof)
+//how is string memory handled internall? (like vectors)
+//get the size of a string (not memory, but internal indeces)
+//get the length of a string. is this the same thing as size()?
+//concatenate two strings
+//use comparison operators to test which (of two strings) comes first lexographically
+//are stl strings mutalble?			<yes>
+//obtain a string iterator
+//use iterator to insert a char
+//use iterator to erase a sequence of chars (its mutable, so it is okay)
+//use iterator to erase everything after a specific index
+//can the "" assignment *only* be during initialization? 		<no>
+//replace range of chars within a string, with a new string
+//get a substring
+//what is the second argument in the substr method? <number of elements>
+//find a sequence within a string
+//	what does find return?		<int location>
+//what is the error if char or string cannot be found?	<returns 
+//find a sequence within a string, but from the end (using an easy method without iterators)
+//use find from a specific index of the string 	
+//Parse to integers using stringstreams
+//possible ways to load a string into stringstream?
+//parse doubles from a stringstream
+
+
+
+/*iostream - cout*/
+//pass arguments/modifiers to cout
+//what is a modifier/manipulator?
+// what is the modifier to cout to print hex integers?
+// what is hte modifier to print oct numbers?
+// what is the modifier to print scientific?
+// what is the modifier to set the precision?
+// what is the include if you try to setprecision without properly setting up? #include<manip>
+// how to reset the float outputs of cout?     cout.unset(ios_base::floatfield)
+// FORMATING
+// how ot set hte width?
+// how to make right/left justified?
+// when does the target string enter couter when using the baove two manipulators? <at the end>
+// how to set the fill of the width (ie change from default whitespace)
+// how ot set cout? is it straightfoward?
+
+
+
+/*iostream - cin*/
+//self test cin
+//using cin, can you pass an entire string into it?
+//				no, cin deliminates by spaces, thus it will not store the entire string
+//what happens when you attempt to load a string containig spaces into cin? there are remaining words in the buffer
+//how to clear cins buffer?			cin.ignore(,)
+//what are the arguments of cin.ignore?			(size, and stop point)
+//what arguments should you use to clear a line at a time?			<numeric_limits<streamsize::max()>, '\n'>
+//what must you include toget the max limit? //#include<limits> //for numeric limits with cin
+
+//make cin to take an entire string? 				getline(char buffer and sizeof)
+//what are the arguments of cin.getline(,)?			char[] and sizeof the array
+
+//what happens if you enter a line too big for the buffer of cingetline?
+// how to clear the error?			cin.clear()
+// should you clear the buffer?		yes,   cin.ignore(numeric_limits(streamsize::max()), '\n'
+// should you always include '\n' in the cin.ignore(,) buffer clear? <YES, otherwise cin seems to will ignore further calls>
+
+// another good aproach for getting a line? independent of cin?
+// std::getline(), how is it different from cin.getline()?			<it accepts streams (first arg), then location (second arg)>
+//					note, std::getline(stream, container) can save in strings, not just char buffers
+// can this getline be used with stringstrams? <YES>
+//
+
+
+
+
+/*iostream - files*/
+//self test
+//create an ostream for a filename
+//check if file sucessfully opened
+//insert data into ostream (file)
+//close ostream
+//create an istream for a filename
+//check if file opened
+//check if file has more to read
+//extract data
+//save data
+//close istream
+//advanced
+//open an ostream that will delete  the file if it exists			<truncate>
+//find the first character of a file								<seekp(0, ios::beg)>		//p for put
+//open a istream for a file
+//after reading data, go back to beginning of ifle 					<seekg(0, ios::beg)>		//g for get
+
+
+
+/*iterators*/
+//self test
+//5 types of iterators: Forward, Bidirectional, Random Access, Input, Output
+//get an iterator from a vector<int>
+//set the iterator to the begining of the vector container
+//get an iterator for the end of the vector container
+//use the iterators to loop through the container (careful as to the end)
+//use pointer arthimetic on an iterator
+//use random access on an iterator
+//get a reverse iterator
+//increment down the container using reverser iterators 
+
+
+
+
+/*list*/
+
+
+
+
+/*pair*/
+
+
+
+
+/*set*/
+
+
+
+
+/*map*/
+
+
+
+
+/*deques*/
+
+
+
+
+/*exceptions*/
+//self test
+//write an exception call that must be constructed with a string arguement
+//throw an exception
+//throw a specific exception object 
+//catch differnt type of exceptions
+//how to write xception specification
+//what does the specification throw() do?
+//Should exception specifications be written?
+
+
+/*string stream*/
+
+
+
+
+/*stacks*/
+
+
+
+
+/*queues*/
+
+
+
+
+/**/
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+

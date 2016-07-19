@@ -41,11 +41,12 @@ void ptrs_shared() {
 	shared_ptr<Base> sptr4 = sptr2;	//creates a new shared pointer pointing to object
 
 	//WARNING - BELOW IS BAD CODE; below circumvent updating user_count, do not do it!
-	//shared_ptr<Base> sptr3 = make_shared<Base>(*sptr2);	//get object from another shared pointers
+	//shared_ptr<Base> sptr3 = make_shared<Base>(*sptr2);	//get object from another shared pointers raw ptr
 
 	//getting raw pointers (ADVISED AGAINST - makes user_count invalid)
 	Base* bptr = &(*sptr2);	//getting normal ptr, again -- this is bad!
 	//Base* bptr = sptr2;	//INVALID; cannot get normal ptr this way. Must dereference object, then get address
+	//sptr2.get()->speakV();	//.get() returns a raw pointer
 
 // ---------------------------- USING SHARED PTRS -----------------------------
 	cout << "----------------------------- USING SHARED POINTERS -----------------------------" << endl;
@@ -73,7 +74,7 @@ void ptrs_shared() {
 	//using usecount
 	cout << "sptr4 is: " << sptr4.get() << ".\nsptr2 is: " << sptr2.get() << endl;
 	cout << "sptr2 user count of: " << sptr2.use_count() << endl;
-	sptr4.reset();	//redces user count
+	sptr4.reset();	//reduces user count
 	cout << "reset() sptr4" << endl;
 	cout << "sptr2 user count of: " << sptr2.use_count() << endl << endl;
 
@@ -110,7 +111,7 @@ void ptrs_shared() {
 
 
 
-	//creating a variable to easily see a hidden derived pointer
+	//creating a variable for casting (easily shows a hidden derived pointer)
 	shared_ptr<Base> polyDerivedPointer = sptr2;
 
 	// ------- DYNAMIC_POINTER_CAST METHOD--- - The ideal way of dynamically casting smart pointers

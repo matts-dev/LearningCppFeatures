@@ -61,7 +61,7 @@ void strings(void){
 
 	//Replace x amount of characters with a different # of chars
 	int numCharsToReplace = 3;
-	numberStr.replace(4, numCharsToReplace, "_REPLACED_");
+	numberStr.replace(4, numCharsToReplace, "_REPLACED_"); //notice numbers to replace != inserted
 	cout << numberStr << '\n' << endl;
 
 	//Get a substring @ index for a number of characters 

@@ -26,3 +26,8 @@ void customDeleters() {
 	deletefunctor explicitfunctor;	//creating the functor on the stack
 	shared_ptr<Base> shared4(new Base, explicitfunctor); // will call the functor
 }
+
+//self test
+//what are the three ways to create a custom deleter for a smart pointer?		<lambda, function, and functor>
+//can you write a custom deleter with make_shared<type>(args)	?				<no, you must use constructor of the shared pointer>
+	//does this cause an exception safety risk? <I'm not sure, but potentially>

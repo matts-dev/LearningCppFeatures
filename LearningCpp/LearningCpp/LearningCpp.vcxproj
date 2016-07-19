@@ -126,6 +126,7 @@
     <ClCompile Include="ConstSafe.cpp" />
     <ClCompile Include="ConstVariables.cpp" />
     <ClCompile Include="ConversionOperator.cpp" />
+    <ClCompile Include="copyandswap.cpp" />
     <ClCompile Include="copyinstance.cpp" />
     <ClCompile Include="CppSwitches.cpp" />
     <ClCompile Include="cstringexample.cpp" />
@@ -159,6 +160,8 @@
     <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
     <ClCompile Include="inline.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
+    <ClCompile Include="MoveAssignment.cpp" />
+    <ClCompile Include="MoveCtor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
     <ClCompile Include="printf variants.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
@@ -194,6 +197,7 @@
     <ClCompile Include="stacks.cpp" />
     <ClCompile Include="staticcast.cpp" />
     <ClCompile Include="StaticVsAutomaticStorage.cpp" />
+    <ClCompile Include="stdmove.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="stringstreams.cpp" />
     <ClCompile Include="StructsWithBitfields.cpp" />
@@ -201,6 +205,7 @@
     <ClCompile Include="TemplateClassStack.cpp" />
     <ClCompile Include="TertiaryConditionalExpression.cpp" />
     <ClCompile Include="ThisKeyword.cpp" />
+    <ClCompile Include="thread.cpp" />
     <ClCompile Include="time.cpp" />
     <ClCompile Include="trycatchinitializer.cpp" />
     <ClCompile Include="TwoDtors.cpp" />
@@ -228,6 +233,7 @@
     <ClInclude Include="TwoFileClass.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="10. SelfTest.txt" />
     <Text Include="test.txt" />
     <Text Include="testFile.txt" />
   </ItemGroup>

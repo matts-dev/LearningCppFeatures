@@ -67,7 +67,7 @@ void ioCIN(void){
 	cout << "\nPreloaded an ignore for 'n', it should only do it one time " << endl;
 	cout << "TYPE 'n' AT SOME POINT IN NEXT STR" << endl;
 	cout << "type hipinipih" << endl;
-	cin.ignore(numeric_limits<streamsize>::max(), 'n');
+	cin.ignore(numeric_limits<streamsize>::max(), 'n');//error, n, not \n - shows ignore must be re-called
 	std::getline(cin, str);
 	cout << str << "\nEnter hipinipih again" << endl;
 	std::getline(cin, str);

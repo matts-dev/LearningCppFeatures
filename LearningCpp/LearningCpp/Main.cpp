@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void customDeleters();
+void threadsBasic();
 int main (int argc, char** argv){
-	customDeleters();
+	threadsBasic();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

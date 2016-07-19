@@ -63,11 +63,11 @@ void uniquePtrs() {
 	// -------------------------------- RELEASING A POINTER --------------------------------
 	//note: there is no assignment operator for other ptrs so the below code is invalid
 	//bptr3 = bptr2;
-	auto bptr3a = bptr3.release();	//release doesn't call dtor, but returns normal pointer
+	auto bptr3a = bptr3.release();	//release doesn't call dtor, but returns normal pointer <similar to smart ptr .get()>
 	bptr3.reset(bptr3a);
 	(*bptr3).speakV();
 
-	// -------------------------------- DELETE (CALL DTOR) ON UNQUE--------------------------------
+	// -------------------------------- DELETE (CALL DTOR) ON UNiQUE--------------------------------
 	bptr3.reset();		//calls dtor 
 
 	// -------------------------- POLYMORPHIC POINTERS --------------------------
