@@ -206,6 +206,10 @@
     <ClCompile Include="TertiaryConditionalExpression.cpp" />
     <ClCompile Include="ThisKeyword.cpp" />
     <ClCompile Include="thread.cpp" />
+    <ClCompile Include="ThreadManagement_References.cpp" />
+    <ClCompile Include="ThreadManagement_TRYCATCH.cpp" />
+    <ClCompile Include="ThreadManagement_RAII.cpp" />
+    <ClCompile Include="ThreadManagment_ID_hardware.cpp" />
     <ClCompile Include="time.cpp" />
     <ClCompile Include="trycatchinitializer.cpp" />
     <ClCompile Include="TwoDtors.cpp" />
@@ -222,6 +226,7 @@
     <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="RAII_ThreadDtorJoin.hpp" />
     <ClInclude Include="verboseclasses.h" />
     <ClInclude Include="copyinstance.hpp" />
     <ClInclude Include="DummyClass.h" />

@@ -390,6 +390,18 @@
     <ClCompile Include="thread.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
+    <ClCompile Include="ThreadManagement_TRYCATCH.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManagement_RAII.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManagment_ID_hardware.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManagement_References.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -418,6 +430,9 @@
     </ClInclude>
     <ClInclude Include="verboseclasses.h">
       <Filter>Resource Files\Source Files\12. Smart Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="RAII_ThreadDtorJoin.hpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
