@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void threadManagementHardWare();
+void avoidDeadlock();
 int main (int argc, char** argv){
-	threadManagementHardWare();
+	avoidDeadlock();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

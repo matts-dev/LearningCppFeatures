@@ -61,6 +61,9 @@
     <Filter Include="Resource Files\Source Files\14. Threads and Concurrent Programming">
       <UniqueIdentifier>{30df58f2-3d28-4522-af04-2f544798da0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement">
+      <UniqueIdentifier>{8f0f7a55-b3e0-4630-9a65-df28993b7d8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -390,16 +393,22 @@
     <ClCompile Include="thread.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
-    <ClCompile Include="ThreadManagement_TRYCATCH.cpp">
+    <ClCompile Include="ThreadManagement_References.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
     <ClCompile Include="ThreadManagement_RAII.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManagement_TRYCATCH.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement</Filter>
     </ClCompile>
     <ClCompile Include="ThreadManagment_ID_hardware.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="MutexAndLockguards.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
-    <ClCompile Include="ThreadManagement_References.cpp">
+    <ClCompile Include="avoidingdeadlock.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
   </ItemGroup>

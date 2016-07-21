@@ -114,6 +114,7 @@
     <ClCompile Include="AbstractFunctions (pure virtual).cpp" />
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
+    <ClCompile Include="avoidingdeadlock.cpp" />
     <ClCompile Include="BasicClass.cpp" />
     <ClCompile Include="c system errors - errno.cpp" />
     <ClCompile Include="cbinaryfiles.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="MoveAssignment.cpp" />
     <ClCompile Include="MoveCtor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
+    <ClCompile Include="MutexAndLockguards.cpp" />
     <ClCompile Include="printf variants.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
     <ClCompile Include="sharedptrs.cpp" />
