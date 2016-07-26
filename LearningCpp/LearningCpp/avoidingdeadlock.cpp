@@ -36,8 +36,8 @@ void avoidDeadlock() {
 	//3. USING STANDARD LOCK - it uses algorithms to prevent deadlock
 	{
 		lock(mu1, mu2);	//think of this as ensuring a locking order to prevent deadock
-		lock_guard<mutex> lock(mu1, adopt_lock);	//will adopt ownership of the lock
-		lock_guard<mutex> lock(mu2, adopt_lock);	//will adopt ownership, and open lock on leaving scope
+		lock_guard<mutex> lock2(mu1, adopt_lock);	//will adopt ownership of the lock
+		lock_guard<mutex> lock3(mu2, adopt_lock);	//will adopt ownership, and open lock on leaving scope
 	}
 
 }

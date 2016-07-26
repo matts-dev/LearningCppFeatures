@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void avoidDeadlock();
+void sharedfutures();
 int main (int argc, char** argv){
-	avoidDeadlock();
+	sharedfutures();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

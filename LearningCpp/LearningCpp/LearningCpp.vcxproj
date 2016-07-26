@@ -122,6 +122,7 @@
     <ClCompile Include="ClassOperatorOverloads.cpp" />
     <ClCompile Include="CommonOps.cpp" />
     <ClCompile Include="CondDir and Paramet Macros.cpp" />
+    <ClCompile Include="ConditionalThread.cpp" />
     <ClCompile Include="constcast.cpp" />
     <ClCompile Include="Constructors(ruleof3).cpp" />
     <ClCompile Include="ConstSafe.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="FunctionBasicReview.cpp" />
     <ClCompile Include="FunctionParameterReviewcpp.cpp" />
     <ClCompile Include="FunctionPointers.cpp" />
+    <ClCompile Include="FuturePromiseAsync.cpp" />
     <ClCompile Include="GenericFunctions%28Templates%29.cpp" />
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="GenericFunctionsRTTI.cpp" />
@@ -165,6 +167,7 @@
     <ClCompile Include="MoveCtor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
     <ClCompile Include="MutexAndLockguards.cpp" />
+    <ClCompile Include="OnceFlag.cpp" />
     <ClCompile Include="printf variants.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
     <ClCompile Include="sharedptrs.cpp" />
@@ -220,6 +223,7 @@
     <ClCompile Include="TypeID.cpp" />
     <ClCompile Include="typeidRTTI.cpp" />
     <ClCompile Include="union.cpp" />
+    <ClCompile Include="UniqueLock.cpp" />
     <ClCompile Include="uniqueptr.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />

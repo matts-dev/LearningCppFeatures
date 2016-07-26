@@ -411,6 +411,18 @@
     <ClCompile Include="avoidingdeadlock.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueLock.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="OnceFlag.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ConditionalThread.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="FuturePromiseAsync.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
