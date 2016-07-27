@@ -117,7 +117,7 @@ int promiseDependingFunction2(shared_future<int> sfu) {
 //Write an async that will ultimately be used to get an integer
 //Write code using future to get interger
 //Write code using a promise; pass a future to a function and have it return something based on a later set promise in main thread
-
+//write code that makes 3 async style threads using a shared future instead of a normal future
 
 //What is an async?													<essentially is a quick way of launching a thread>
 //What is the first argument for async (if not  left implicit)?		<tells where to launch in thread, or wait to launch when needed>
@@ -132,6 +132,8 @@ int promiseDependingFunction2(shared_future<int> sfu) {
 //how are promises used?											<promise is linked to a future, and that future is passed as reference to a function; when promise is fufilled, the future.get() function will work>
 //what happens when a promise is never met?							<an exception will be thrown>
 
+//what is a shared future?											<it allows using a single future's output for multiple threads>
+//Why is it useful?													<sometimes you may have many threads all waiting on a single value, rather than making duplicate futures, you can use shared future>
 
 
 

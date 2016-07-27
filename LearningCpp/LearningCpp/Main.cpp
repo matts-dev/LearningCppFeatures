@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void sharedfutures();
+void packagetasks();
 int main (int argc, char** argv){
-	sharedfutures();
+	packagetasks();
 
 	std::cout << "\nenter chars to close" << std::endl;
 

@@ -114,7 +114,7 @@
     <ClCompile Include="AbstractFunctions (pure virtual).cpp" />
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
-    <ClCompile Include="avoidingdeadlock.cpp" />
+    <ClCompile Include="4. avoidingdeadlock.cpp" />
     <ClCompile Include="BasicClass.cpp" />
     <ClCompile Include="c system errors - errno.cpp" />
     <ClCompile Include="cbinaryfiles.cpp" />
@@ -122,7 +122,7 @@
     <ClCompile Include="ClassOperatorOverloads.cpp" />
     <ClCompile Include="CommonOps.cpp" />
     <ClCompile Include="CondDir and Paramet Macros.cpp" />
-    <ClCompile Include="ConditionalThread.cpp" />
+    <ClCompile Include="6. ConditionalThread.cpp" />
     <ClCompile Include="constcast.cpp" />
     <ClCompile Include="Constructors(ruleof3).cpp" />
     <ClCompile Include="ConstSafe.cpp" />
@@ -153,7 +153,7 @@
     <ClCompile Include="FunctionBasicReview.cpp" />
     <ClCompile Include="FunctionParameterReviewcpp.cpp" />
     <ClCompile Include="FunctionPointers.cpp" />
-    <ClCompile Include="FuturePromiseAsync.cpp" />
+    <ClCompile Include="7. FuturePromiseAsync.cpp" />
     <ClCompile Include="GenericFunctions%28Templates%29.cpp" />
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="GenericFunctionsRTTI.cpp" />
@@ -166,8 +166,9 @@
     <ClCompile Include="MoveAssignment.cpp" />
     <ClCompile Include="MoveCtor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
-    <ClCompile Include="MutexAndLockguards.cpp" />
+    <ClCompile Include="3. MutexAndLockguards.cpp" />
     <ClCompile Include="OnceFlag.cpp" />
+    <ClCompile Include="9. PackagedTask.cpp" />
     <ClCompile Include="printf variants.cpp" />
     <ClCompile Include="reinterpretcast.cpp" />
     <ClCompile Include="sharedptrs.cpp" />
@@ -210,8 +211,8 @@
     <ClCompile Include="TemplateClassStack.cpp" />
     <ClCompile Include="TertiaryConditionalExpression.cpp" />
     <ClCompile Include="ThisKeyword.cpp" />
-    <ClCompile Include="thread.cpp" />
-    <ClCompile Include="ThreadManagement_References.cpp" />
+    <ClCompile Include="1. thread.cpp" />
+    <ClCompile Include="2. aThreadManagement_References.cpp" />
     <ClCompile Include="ThreadManagement_TRYCATCH.cpp" />
     <ClCompile Include="ThreadManagement_RAII.cpp" />
     <ClCompile Include="ThreadManagment_ID_hardware.cpp" />
@@ -223,8 +224,9 @@
     <ClCompile Include="TypeID.cpp" />
     <ClCompile Include="typeidRTTI.cpp" />
     <ClCompile Include="union.cpp" />
-    <ClCompile Include="UniqueLock.cpp" />
+    <ClCompile Include="5. UniqueLock.cpp" />
     <ClCompile Include="uniqueptr.cpp" />
+    <ClCompile Include="8. usingMemberFunctionsInThreads.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="verboseclasses.cpp" />

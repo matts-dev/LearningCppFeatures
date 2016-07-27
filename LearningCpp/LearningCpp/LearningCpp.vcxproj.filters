@@ -390,12 +390,6 @@
     <ClCompile Include="copyandswap.cpp">
       <Filter>Resource Files\Source Files\13. Move Semantics</Filter>
     </ClCompile>
-    <ClCompile Include="thread.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreadManagement_References.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
-    </ClCompile>
     <ClCompile Include="ThreadManagement_RAII.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement</Filter>
     </ClCompile>
@@ -405,22 +399,34 @@
     <ClCompile Include="ThreadManagment_ID_hardware.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming\ThreadManagement</Filter>
     </ClCompile>
-    <ClCompile Include="MutexAndLockguards.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="avoidingdeadlock.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="UniqueLock.cpp">
-      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
-    </ClCompile>
     <ClCompile Include="OnceFlag.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
-    <ClCompile Include="ConditionalThread.cpp">
+    <ClCompile Include="1. thread.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
-    <ClCompile Include="FuturePromiseAsync.cpp">
+    <ClCompile Include="2. aThreadManagement_References.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="3. MutexAndLockguards.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="4. avoidingdeadlock.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="5. UniqueLock.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="6. ConditionalThread.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="7. FuturePromiseAsync.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="8. usingMemberFunctionsInThreads.cpp">
+      <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="9. PackagedTask.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
   </ItemGroup>
