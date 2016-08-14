@@ -36,3 +36,12 @@ void packagetasks() {
 	package2();
 	cout << "value from package2: " << fu.get() << endl;
 }
+
+//self test - I don't see myself using these, but here is the basic concepts
+//Why use a packaged_task?						<it allows linking a callable object (functor, lambda etc.) to a future, which is useful in threads (see async file for future and promises)
+//What does a packaged_task take as templtae  parameter	<function return type(function arguments>
+//What must you do before the future will return a value?		<you must call the packaged task with an argument (or no arguments), this is what will call the wrapped function>
+
+//create a packaged task to echo an integer
+//use the packaged task to print out an echoed integer
+//*optional* move the future of a packaged task to a different thread

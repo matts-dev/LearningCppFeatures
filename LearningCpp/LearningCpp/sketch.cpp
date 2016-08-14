@@ -7,6 +7,7 @@
 #include<mutex>
 #include<deque>
 #include"verboseclasses.h"
+#include"DummyClass.h"
 using namespace std;
 using sptrs::Base;
 

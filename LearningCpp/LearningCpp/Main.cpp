@@ -1,9 +1,9 @@
 // Matt Stone
 #include<iostream>
 
-void packagetasks();
+void sketch();
 int main (int argc, char** argv){
-	packagetasks();
+	sketch();
 
 	std::cout << "\nenter chars to close" << std::endl;
 
