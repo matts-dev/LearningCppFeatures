@@ -94,3 +94,24 @@ void maps(void){
 		cout << '\t' << (*it).first << " is " << it->second << endl;	//review on calling pointers methods/fields
 	}
 }
+
+//self test Maps
+
+//create a map of strings and strings used to convert from english to spansih colors
+//insert an element to the map using the .insert function and brackets {,}
+//insert an element to the map using the .insert function and a std::pair variable
+//insert an element using the [] notation
+//can maps be accessed backwards (using value to get key?)					<no, they cannot>
+//Access an element using .at()				<returns value for key>
+//Access an element using .find()			<returns a pair>
+//Access an element using []				<returns value for key>
+//Erase an element passing an iterator and using .find to get the iterator()
+//erase an element passing a key
+//use the erase method within an if statements condition
+//iterator through a map using the STL iterators (get them directly from map)
+
+//? What happens if you try to insert an pair for which a key already exists?	<it returns an error pair, first is the value already at the key,second is bool as in regards to successful insertion>
+//? What happens if you successfully insert a pair using insert?				< returns (pair<map<string, string>::iterator, bool>), ie{*{key, value}, (bool success)} is what is returned, first is an iterator>
+//? What happens if you try to access something using [] that doesn't exist?	<a key will be created [key], its value will be set to a default value (an emptry string in this case)>
+//? What happens if you make a key using [key] but don't set a value and no-default constructor exists for the object?
+//? What does .erase return?			<returns number of elements erased>
