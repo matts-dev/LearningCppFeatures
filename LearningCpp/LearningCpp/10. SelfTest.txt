@@ -142,22 +142,55 @@
 
 
 /*pair*/
-
+//make a pair that can hold a string and a double
+//what must you include for pair?
 
 
 
 /*set*/
-
+//concept set test questions
+//create a set
+//insert elements into a set
+//find elements in a set
+//erase element in set if it was found  - erase requires iterator, so you can't erase non-existent 
+//check if an insert was sucessful
+//		-a pair is returned: first element = iterator, second element = boolean of status of insert
+//		-iterator points to either new element inserted, or the element that was identical to it (and prevented it from being inserted)
+// multisets exist - their insert just returns an iterator to the inserted element (which is the last element)
 
 
 
 /*map*/
+//self test Maps
+//create a map of strings and strings used to convert from english to spansih colors
+//insert an element to the map using the .insert function and brackets {,}
+//insert an element to the map using the .insert function and a std::pair variable
+//insert an element using the [] notation
+//can maps be accessed backwards (using value to get key?)					<no, they cannot>
+//Access an element using .at()				<returns value for key>
+//Access an element using .find()			<returns a pair>
+//Access an element using []				<returns value for key>
+//Erase an element passing an iterator and using .find to get the iterator()
+//erase an element passing a key
+//use the erase method within an if statements condition
+//iterator through a map using the STL iterators (get them directly from map)
 
+//? What happens if you try to insert an pair for which a key already exists?	<it returns an error pair, first is the value already at the key,second is bool as in regards to successful insertion>
+//? What happens if you successfully insert a pair using insert?				< returns (pair<map<string, string>::iterator, bool>), ie{*{key, value}, (bool success)} is what is returned, first is an iterator>
+//? What happens if you try to access something using [] that doesn't exist?	<a key will be created [key], its value will be set to a default value (an emptry string in this case)>
+//? What happens if you make a key using [key] but don't set a value and no-default constructor exists for the object?
+//? What does .erase return?			<returns number of elements erased>
 
 
 
 /*deques*/
-
+//deque - double ended queue
+//create a deque
+// push values to front of deque
+// push values to back of deque
+// loop through deque with for-each
+// loop through deque with forward iterator
+// loop through deque with reverse iterator 
 
 
 
@@ -183,11 +216,14 @@
 
 
 /*queues*/
+//self test
+//queue
+//create a default queue
+//create a queue from a lst
+//get the first element of a que
+//release first element of the que
+//loop through a queue (ie getting rid of the front)
 
-
-
-
-/**/
 
 
 

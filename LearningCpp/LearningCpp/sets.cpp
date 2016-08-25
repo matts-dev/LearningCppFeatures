@@ -104,4 +104,4 @@ void sets(void){
 //check if an insert was sucessful
 //		-a pair is returned: first element = iterator, second element = boolean of status of insert
 //		-iterator points to either new element inserted, or the element that was identical to it (and prevented it from being inserted)
-// multisetes exist - their insert just returns an iterator to the inserted element (which is the last element)
+// multisets exist - their insert just returns an iterator to the inserted element (which is the last element)

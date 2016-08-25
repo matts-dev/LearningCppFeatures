@@ -46,7 +46,7 @@ void maps(void){
 	// Map size
 	cout << "the map size is: " << colors.size() << endl << endl;
 
-	// Insertiing a duplicate element;
+	// Inserting a duplicate element;
 	auto errorPair = colors.insert({ "green", "verde" }); //see below to see what auto fills in
 	pair<map<string, string>::iterator, bool> errorPairDemo = colors.insert({ "test", "test" });
 	colors.erase("test");

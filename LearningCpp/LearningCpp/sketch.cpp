@@ -11,9 +11,9 @@
 using namespace std;
 using sptrs::Base;
 
-void maps();
+void queuedeque();
 void sketch() {
-	maps();
+	queuedeque();
 	//testing changes.
 
 }
