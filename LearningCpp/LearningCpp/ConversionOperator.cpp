@@ -17,7 +17,7 @@ public:
 	//Conversion Operator
 	operator std::string () const;
 	operator DummyClass () const { return DummyClass(n); }
-};
+}; 
 
 ostream& operator<<(ostream& os, const ComplexClass& obj){
 	os << obj.n << '/' << obj.d;

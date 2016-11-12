@@ -8,13 +8,25 @@
 #include<deque>
 #include"verboseclasses.h"
 #include"DummyClass.h"
+#include"inhert.hpp"
+#include <cstdint>
+#include <climits>
+
 using namespace std;
 using sptrs::Base;
 
+void printBytes(char* start, int numBytes);
+
 void queuedeque();
 void sketch() {
-	queuedeque();
-	//testing changes.
 
+
+}
+
+void printBytes(char* ptr, int numBytes) {
+	for (int i = 0; i < numBytes; ++i, ++ptr) {
+		printf("%.2x ", *ptr);
+	}
+	printf("\n");
 }
 

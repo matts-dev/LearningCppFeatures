@@ -429,6 +429,9 @@
     <ClCompile Include="9. PackagedTask.cpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClCompile>
+    <ClCompile Include="GoToDemo.cpp">
+      <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
