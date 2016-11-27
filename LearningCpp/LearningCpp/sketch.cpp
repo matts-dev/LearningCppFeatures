@@ -20,6 +20,8 @@ void printBytes(char* start, int numBytes);
 //This is how you foward declare functions in namespaces
 namespace polyTest {
 	void testPolyCompare();
+
+	//added something to test diff on commits
 }
 
 void sketch() {
@@ -29,7 +31,7 @@ void sketch() {
 void printBytes(char* ptr, int numBytes) {
 	for (int i = 0; i < numBytes; ++i, ++ptr) {
 		printf("%.2x ", *ptr);
-	}
+	} 
 	printf("\n");
 }
 
