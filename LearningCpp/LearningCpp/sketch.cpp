@@ -17,10 +17,13 @@ using sptrs::Base;
 
 void printBytes(char* start, int numBytes);
 
-void queuedeque();
+//This is how you foward declare functions in namespaces
+namespace polyTest {
+	void testPolyCompare();
+}
+
 void sketch() {
-
-
+	polyTest::testPolyCompare();
 }
 
 void printBytes(char* ptr, int numBytes) {

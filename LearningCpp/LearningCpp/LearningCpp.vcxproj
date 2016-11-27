@@ -158,12 +158,14 @@
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="GenericFunctionsRTTI.cpp" />
     <ClCompile Include="GoToDemo.cpp" />
+    <ClCompile Include="HowToFowardDeclareNamespaceFunctions.cpp" />
     <ClCompile Include="Implicit Explicit.cpp" />
     <ClCompile Include="includeDirective.cpp" />
     <ClCompile Include="includeGaurd.cpp" />
     <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
     <ClCompile Include="inline.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
+    <ClCompile Include="polyMorphCompare.hpp" />
     <ClCompile Include="MoveAssignment.cpp" />
     <ClCompile Include="MoveCtor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />

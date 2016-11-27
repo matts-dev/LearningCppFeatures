@@ -432,6 +432,12 @@
     <ClCompile Include="GoToDemo.cpp">
       <Filter>Resource Files\Source Files\Other.</Filter>
     </ClCompile>
+    <ClCompile Include="polyMorphCompare.hpp">
+      <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToFowardDeclareNamespaceFunctions.cpp">
+      <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
