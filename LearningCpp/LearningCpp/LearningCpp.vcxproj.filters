@@ -470,6 +470,9 @@
     <ClInclude Include="RAII_ThreadDtorJoin.hpp">
       <Filter>Resource Files\Source Files\14. Threads and Concurrent Programming</Filter>
     </ClInclude>
+    <ClInclude Include="JakesQuestionOnFields.h">
+      <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />

@@ -237,6 +237,7 @@
     <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="JakesQuestionOnFields.h" />
     <ClInclude Include="RAII_ThreadDtorJoin.hpp" />
     <ClInclude Include="verboseclasses.h" />
     <ClInclude Include="copyinstance.hpp" />
