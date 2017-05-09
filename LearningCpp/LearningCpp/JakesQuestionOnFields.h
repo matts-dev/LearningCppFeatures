@@ -23,13 +23,13 @@ class HasFieldThatPrints{
 	PrintOnCtor willIprintTwice_Qmark;
 public:
 	//prints:
-	//arg ctor!
-	//arg ctor!
+	//ctor!
+	//ctor!
 	//dtor!
 	//dtor!
 	HasFieldThatPrints() {
-		//no-arg ctor called before constructor entered
-		//no-arg ctor called on assignment
+		//1.ctor called before constructor entered
+		//2.ctor called on assignment
 		this->willIprintTwice_Qmark = PrintOnCtor();
 	}
 
