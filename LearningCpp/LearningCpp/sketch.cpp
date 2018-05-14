@@ -41,6 +41,8 @@ void sketch() {
 		cout << "\n\narg" << endl;
 		HasFieldThatPrints x(true);
 	}
+
+	DummyClass test;
 }
 
 void internetCheckSum() {

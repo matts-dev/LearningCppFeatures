@@ -10,6 +10,7 @@ protected:
 	int thisId = 0;
 	std::string name = "";
 public:
+	//static const int TEST = 2;
 	bool verbose = true;
 	DummyClass();
 	DummyClass(bool verbose);
