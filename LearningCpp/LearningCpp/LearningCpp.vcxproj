@@ -91,6 +91,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -164,6 +165,7 @@
     <ClCompile Include="includeGaurd.cpp" />
     <ClCompile Include="InheritanceConstructorsDestructors.cpp" />
     <ClCompile Include="inline.cpp" />
+    <ClCompile Include="intro_template_specializations.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
     <ClCompile Include="polyMorphCompare.hpp" />
     <ClCompile Include="MoveAssignment.cpp" />
@@ -237,6 +239,7 @@
     <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FriendAndInheritance.h" />
     <ClInclude Include="JakesQuestionOnFields.h" />
     <ClInclude Include="RAII_ThreadDtorJoin.hpp" />
     <ClInclude Include="verboseclasses.h" />
