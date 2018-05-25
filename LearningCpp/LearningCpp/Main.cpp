@@ -2,6 +2,8 @@
 #include<iostream>
 
 void intro_template_specializations();
+
+
 int main (int argc, char** argv){
 	intro_template_specializations();
 

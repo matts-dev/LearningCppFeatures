@@ -115,6 +115,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFunctions (pure virtual).cpp" />
+    <ClCompile Include="AcceleratedCPP\ch3.cpp" />
+    <ClCompile Include="AcceleratedCPP\ch5.cpp" />
+    <ClCompile Include="AcceleratedCPP\playing_with_allocators.cpp" />
+    <ClCompile Include="AcceleratedCPP\template_optional_instantiation.cpp" />
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="4. avoidingdeadlock.cpp" />

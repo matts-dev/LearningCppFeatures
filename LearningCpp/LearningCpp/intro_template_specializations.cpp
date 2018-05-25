@@ -4,6 +4,7 @@
 
 namespace intro_template_specializations_ns
 {
+	//template definnition, not specialized
 	template <typename T>
 	class Demo
 	{
@@ -15,6 +16,8 @@ namespace intro_template_specializations_ns
 		void doWork() { std::cout << "generic work" << std::endl; }
 	};
 
+
+	// specialized for char
 	template<>
 	class Demo<char>
 	{
@@ -25,6 +28,8 @@ namespace intro_template_specializations_ns
 		}
 	};
 
+
+	//specialized for T*
 	template<typename T>
 	class Demo<T*>
 	{
