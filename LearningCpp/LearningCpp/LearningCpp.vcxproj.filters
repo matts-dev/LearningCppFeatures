@@ -453,6 +453,12 @@
     <ClCompile Include="AcceleratedCPP\template_optional_instantiation.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

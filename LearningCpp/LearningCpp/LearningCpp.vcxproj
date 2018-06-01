@@ -151,6 +151,8 @@
     <ClCompile Include="Escape sequences.cpp" />
     <ClCompile Include="exceptions.cpp" />
     <ClCompile Include="extraPtrsAndRefs.cpp" />
+    <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp" />
+    <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp" />
     <ClCompile Include="fgetsfputs.cpp" />
     <ClCompile Include="FieldMethodAccessANDvirtual.cpp" />
     <ClCompile Include="cfiles.cpp" />

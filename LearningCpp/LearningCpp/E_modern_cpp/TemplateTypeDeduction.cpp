@@ -25,7 +25,7 @@ constexpr void print_array_size(T(&)[N]) noexcept; //this is a weird syntax, but
 
 void print_lines();
 
-int main()
+static int main_v()
 {
 	//NOTE: I highly recommend mousing over function name in visual studio to see deduced parameter types.
 	// the print methods within the functions do not reflect the fully qualified parameter type in some cases.
