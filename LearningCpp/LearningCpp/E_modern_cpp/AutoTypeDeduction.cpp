@@ -1,6 +1,6 @@
 #include<iostream>
 
-int main()
+static int main_v()
 {
 	//auto deduces types the same way that parameter types are deduced (with a 1 exception that is changed post cpp14)	
 	//look at the other file, TemplateTypeDeduction, and see that templates have two types deduced:

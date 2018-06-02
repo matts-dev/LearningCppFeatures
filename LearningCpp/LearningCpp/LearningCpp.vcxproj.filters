@@ -459,6 +459,9 @@
     <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\decltype_modern.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
