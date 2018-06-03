@@ -154,6 +154,7 @@
     <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\decltype_modern.cpp" />
     <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp" />
+    <ClCompile Include="E_modern_cpp\ViewingDeducedTypes.cpp" />
     <ClCompile Include="fgetsfputs.cpp" />
     <ClCompile Include="FieldMethodAccessANDvirtual.cpp" />
     <ClCompile Include="cfiles.cpp" />

@@ -38,6 +38,11 @@ static int main_v()
 	template_function_const_ptr(&val);	 //param: const int*	type: int
 	print_lines();
 
+	//pass-by-value drops const, volitile, and reference
+	const int& cref = val;
+	template_function_value(cref); //type is just int, not const int&; since we're making a copy the compile decides const and ref(&) are unneccessary 
+	print_lines();
+
 	double d = 1.0;
 	const double cd = d;
 	const double& cd_ref = d;

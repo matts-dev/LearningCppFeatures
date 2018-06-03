@@ -111,7 +111,7 @@ namespace
 
 }; //end anyonomous namespace
 
-int main()
+static int main_v()
 {
 	local_vars();
 	typededuction_in_functions();
