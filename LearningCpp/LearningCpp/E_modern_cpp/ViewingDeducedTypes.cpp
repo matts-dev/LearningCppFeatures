@@ -8,7 +8,7 @@ namespace
 	class B_Child : public A_Super { };
 }
 
-int main()
+static int main_v()
 {
 	//visual studio mouse over variable name to see type 
 	const double val = 5;
