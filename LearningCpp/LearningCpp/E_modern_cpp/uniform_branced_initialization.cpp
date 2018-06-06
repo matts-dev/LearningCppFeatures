@@ -37,7 +37,7 @@ void create(argTs&&... args)
 	T obj4{ args... }; //same as above, just showing that this will compile without std::forward
 }
 
-int main()
+static int main_v()
 {
 	int x1 = 5;
 	int x2(5);
