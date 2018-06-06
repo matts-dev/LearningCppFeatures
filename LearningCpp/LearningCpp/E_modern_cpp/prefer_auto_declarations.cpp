@@ -36,7 +36,7 @@ void iterate_and_copy(Iter b, Iter end)
 	}
 }
 
-int main()
+static int main_v()
 {
 	using std::vector;
 	using std::unordered_map;
