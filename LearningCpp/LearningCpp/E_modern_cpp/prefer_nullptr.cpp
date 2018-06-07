@@ -44,7 +44,7 @@ namespace
 	M* flip_back(M* ptr) { return ptr; }
 }
 
-int main()
+static int main_v()
 {
 	//the options
 	M* ptr1 = 0;
