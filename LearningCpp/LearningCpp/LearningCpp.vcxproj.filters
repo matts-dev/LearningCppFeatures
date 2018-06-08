@@ -477,6 +477,9 @@
     <ClCompile Include="E_modern_cpp\aliasdeclarations_beat_typedefs.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\scoped_vs_unscoped_enums.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

@@ -156,6 +156,7 @@
     <ClCompile Include="E_modern_cpp\decltype_modern.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_nullptr.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_auto_declarations.cpp" />
+    <ClCompile Include="E_modern_cpp\scoped_vs_unscoped_enums.cpp" />
     <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\uniform_branced_initialization.cpp" />
     <ClCompile Include="E_modern_cpp\ViewingDeducedTypes.cpp" />

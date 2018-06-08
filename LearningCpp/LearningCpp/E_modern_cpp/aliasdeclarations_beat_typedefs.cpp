@@ -72,7 +72,7 @@ void meta_programming_utils(T arg)
 	std::add_lvalue_reference_t<T> lvalue_ref2 = arg;
 }
 
-int main()
+static int main_v()
 {
 	typedef std::unordered_map<std::string, int> WordCountMap_td; //old c++ 98 typedef
 	using WordCountMap_ud = std::unordered_map<std::string, int>; //using declaration
