@@ -8,7 +8,7 @@ namespace
 static void part2(); //avoiding forward declaring in anyonomous namespaces because that's weird
 static void part3();
 
-int main()
+static int main_v()
 {
 	//unscoped enum
 	enum Shapes2D { Square, Triangle, Circle };
