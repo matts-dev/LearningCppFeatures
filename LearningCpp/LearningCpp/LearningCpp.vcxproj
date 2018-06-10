@@ -154,6 +154,7 @@
     <ClCompile Include="E_modern_cpp\aliasdeclarations_beat_typedefs.cpp" />
     <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\decltype_modern.cpp" />
+    <ClCompile Include="E_modern_cpp\reference_qualifiers_and_override.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_deleted_functions.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_nullptr.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_auto_declarations.cpp" />

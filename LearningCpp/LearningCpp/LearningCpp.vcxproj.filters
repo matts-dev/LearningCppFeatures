@@ -483,6 +483,9 @@
     <ClCompile Include="E_modern_cpp\prefer_deleted_functions.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\reference_qualifiers_and_override.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

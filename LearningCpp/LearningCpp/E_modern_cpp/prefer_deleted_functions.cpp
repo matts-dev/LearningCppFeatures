@@ -64,7 +64,7 @@ namespace
 
 }
 
-int main()
+static int main_v()
 {
 	//the old cpp98way, ie private undefines, could have calls attempted by friends etc; but would error out at link time.
 
