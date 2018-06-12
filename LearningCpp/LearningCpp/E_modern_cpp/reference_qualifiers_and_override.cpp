@@ -5,7 +5,7 @@ namespace
 
 }
 
-int main()
+static int main_v()
 {
 	//using the override keywords helps for numerous reasons.
 	//* it gives you a compile time check that your function signature matches some super class signature

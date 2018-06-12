@@ -486,6 +486,9 @@
     <ClCompile Include="E_modern_cpp\reference_qualifiers_and_override.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\cpp11_const_iters.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
