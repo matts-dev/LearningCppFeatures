@@ -2,7 +2,7 @@
 #include <vector>
 
 
-int main()
+static int main_v()
 {
 	int sum = 0;
 	std::vector<int> numbers;
