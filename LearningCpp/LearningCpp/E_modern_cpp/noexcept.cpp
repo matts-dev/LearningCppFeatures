@@ -96,7 +96,7 @@ void Part2_demoing_conditionally_except()
 	//a lot of std::algoritms use swap internally, providing noexcept swaps will give a large perf increase!
 }
 
-int main()
+static int main_v()
 {
 	Part1_demoing_move_perf_increases_container();
 	Part2_demoing_conditionally_except();
