@@ -109,7 +109,7 @@ namespace
 
 }
 
-int main()
+static int main_v()
 {
 	constexprObjsDemo();
 	constexprFunctionsDemo();

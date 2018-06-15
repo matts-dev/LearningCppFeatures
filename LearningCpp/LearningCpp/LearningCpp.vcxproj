@@ -154,6 +154,7 @@
     <ClCompile Include="E_modern_cpp\aliasdeclarations_beat_typedefs.cpp" />
     <ClCompile Include="E_modern_cpp\AutoTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\constexpr.cpp" />
+    <ClCompile Include="E_modern_cpp\constmembers_threadsafe.cpp" />
     <ClCompile Include="E_modern_cpp\cpp11_const_iters.cpp" />
     <ClCompile Include="E_modern_cpp\decltype_modern.cpp" />
     <ClCompile Include="E_modern_cpp\noexcept.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="E_modern_cpp\prefer_deleted_functions.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_nullptr.cpp" />
     <ClCompile Include="E_modern_cpp\prefer_auto_declarations.cpp" />
+    <ClCompile Include="E_modern_cpp\RuleOfFive.cpp" />
     <ClCompile Include="E_modern_cpp\scoped_vs_unscoped_enums.cpp" />
     <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\uniform_branced_initialization.cpp" />
