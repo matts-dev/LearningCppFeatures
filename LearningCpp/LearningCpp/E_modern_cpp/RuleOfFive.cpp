@@ -59,7 +59,7 @@ class EsotericCaveat;
 
 void special_case();
 
-int main()
+static int main_v()
 {
 
 
