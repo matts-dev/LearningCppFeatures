@@ -188,7 +188,7 @@ int main()
 	}
 
 	{
-		//note the synax below is illegal because it was deemed problematic
+		//note the syntax below is illegal because it was deemed problematic
 		//std::unique_ptr<M> uptr = new M; //IE no conversions directly from pointer to uptr.
 
 		//there are two forms of unique pointers (this is not true for shared ptr), the single object form and the array form.
