@@ -79,7 +79,7 @@ namespace
 	}
 }
 
-int main()
+static int main_v()
 {
 	//reasons to avoid regular pointers...
 		//* From just the declaration, you don't know if its your responsibility to destroy the pointer.

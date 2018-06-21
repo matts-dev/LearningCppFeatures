@@ -255,6 +255,7 @@
     <ClCompile Include="5. UniqueLock.cpp" />
     <ClCompile Include="uniqueptr.cpp" />
     <ClCompile Include="8. usingMemberFunctionsInThreads.cpp" />
+    <ClCompile Include="using_shared_ptrs.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="verboseclasses.cpp" />
