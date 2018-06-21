@@ -168,6 +168,7 @@
     <ClCompile Include="E_modern_cpp\uniform_branced_initialization.cpp" />
     <ClCompile Include="E_modern_cpp\using_unique_ptrs.cpp" />
     <ClCompile Include="E_modern_cpp\ViewingDeducedTypes.cpp" />
+    <ClCompile Include="E_modern_cpp\using_weak_ptrs.cpp" />
     <ClCompile Include="fgetsfputs.cpp" />
     <ClCompile Include="FieldMethodAccessANDvirtual.cpp" />
     <ClCompile Include="cfiles.cpp" />
@@ -255,7 +256,7 @@
     <ClCompile Include="5. UniqueLock.cpp" />
     <ClCompile Include="uniqueptr.cpp" />
     <ClCompile Include="8. usingMemberFunctionsInThreads.cpp" />
-    <ClCompile Include="using_shared_ptrs.cpp" />
+    <ClCompile Include="E_modern_cpp\using_shared_ptrs.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="verboseclasses.cpp" />

@@ -47,7 +47,7 @@ namespace
 
 }
 
-int main()
+static int main_v()
 {
 	auto deleterA = [](M* rawPtr) {
 		std::cout << "deleting: " << rawPtr << std::endl;
