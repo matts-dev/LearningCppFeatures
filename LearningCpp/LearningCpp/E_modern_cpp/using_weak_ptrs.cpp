@@ -11,7 +11,7 @@ namespace
 	};
 }
 
-int main()
+static int main_v()
 {
 	std::shared_ptr<M> sptr = std::make_shared<M>();
 

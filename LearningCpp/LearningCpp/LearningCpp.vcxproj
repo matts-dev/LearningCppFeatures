@@ -166,6 +166,7 @@
     <ClCompile Include="E_modern_cpp\scoped_vs_unscoped_enums.cpp" />
     <ClCompile Include="E_modern_cpp\TemplateTypeDeduction.cpp" />
     <ClCompile Include="E_modern_cpp\uniform_branced_initialization.cpp" />
+    <ClCompile Include="E_modern_cpp\using_make_ptr_functions.cpp" />
     <ClCompile Include="E_modern_cpp\using_unique_ptrs.cpp" />
     <ClCompile Include="E_modern_cpp\ViewingDeducedTypes.cpp" />
     <ClCompile Include="E_modern_cpp\using_weak_ptrs.cpp" />
