@@ -513,6 +513,21 @@
     <ClCompile Include="E_modern_cpp\using_make_ptr_functions.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pimpl_Inheritance\Child_Pimpl.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pimpl_Inheritance\pimpl_main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\Upimpl.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -550,6 +565,15 @@
     </ClInclude>
     <ClInclude Include="FriendAndInheritance.h">
       <Filter>Resource Files\Source Files\Other.</Filter>
+    </ClInclude>
+    <ClInclude Include="Pimpl_Inheritance\Child_Pimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pimpl_Inheritance\Base_Pimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E_modern_cpp\Upimpl.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

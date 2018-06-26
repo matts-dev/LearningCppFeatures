@@ -122,9 +122,12 @@
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="4. avoidingdeadlock.cpp" />
+    <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />
+    <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp" />
     <ClCompile Include="BasicClass.cpp" />
     <ClCompile Include="c system errors - errno.cpp" />
     <ClCompile Include="cbinaryfiles.cpp" />
+    <ClCompile Include="Pimpl_Inheritance\Child_Pimpl.cpp" />
     <ClCompile Include="ClassExceptions.cpp" />
     <ClCompile Include="ClassOperatorOverloads.cpp" />
     <ClCompile Include="CommonOps.cpp" />
@@ -192,6 +195,7 @@
     <ClCompile Include="inline.cpp" />
     <ClCompile Include="intro_template_specializations.cpp" />
     <ClCompile Include="makingCppInterface.cpp" />
+    <ClCompile Include="Pimpl_Inheritance\pimpl_main.cpp" />
     <ClCompile Include="polyMorphCompare.hpp" />
     <ClCompile Include="MoveAssignment.cpp" />
     <ClCompile Include="MoveCtor.cpp" />
@@ -258,6 +262,7 @@
     <ClCompile Include="uniqueptr.cpp" />
     <ClCompile Include="8. usingMemberFunctionsInThreads.cpp" />
     <ClCompile Include="E_modern_cpp\using_shared_ptrs.cpp" />
+    <ClCompile Include="E_modern_cpp\Upimpl.cpp" />
     <ClCompile Include="Variadic.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="verboseclasses.cpp" />
@@ -265,9 +270,12 @@
     <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Pimpl_Inheritance\Base_Pimpl.h" />
+    <ClInclude Include="Pimpl_Inheritance\Child_Pimpl.h" />
     <ClInclude Include="FriendAndInheritance.h" />
     <ClInclude Include="JakesQuestionOnFields.h" />
     <ClInclude Include="RAII_ThreadDtorJoin.hpp" />
+    <ClInclude Include="E_modern_cpp\Upimpl.h" />
     <ClInclude Include="verboseclasses.h" />
     <ClInclude Include="copyinstance.hpp" />
     <ClInclude Include="DummyClass.h" />
