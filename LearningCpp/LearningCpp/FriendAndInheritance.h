@@ -41,7 +41,7 @@ struct FriendCheat {
 
 };
 
-int main() {
+int main_v() {
 	Factory factory;
 	Bottom* bottom = FriendCheat::getInstance();
 

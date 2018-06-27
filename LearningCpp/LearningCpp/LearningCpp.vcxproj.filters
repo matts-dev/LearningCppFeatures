@@ -528,6 +528,9 @@
     <ClCompile Include="E_modern_cpp\Upimpl.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\fowardsmoves_move_and_forward.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

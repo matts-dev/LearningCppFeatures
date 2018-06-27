@@ -1,7 +1,7 @@
 #include<iostream>
 #include "Upimpl.h"
 
-int main()
+static int main_v()
 {
 	//this requires .h and .cpp files, so the item refers to a class that is defined in another file (upimpl.h)
 	Upimpl obj;
