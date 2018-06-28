@@ -82,7 +82,7 @@ void forward_Demo(T&& ref)
 }
 
 //FORWARD DEFINTION
-int main()
+static int main_v()
 {
 	//you can't move from const objects because the move needs to modify the object 
 	//(at least in practice, this isn't enforced, if you provide a move ctor with a const CLASS&& parameter, it will try to use that!)

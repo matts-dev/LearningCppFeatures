@@ -5,7 +5,7 @@ static int main_v()
 	//auto deduces types the same way that parameter types are deduced (with a 1 exception that is changed post cpp14)	
 	//look at the other file, TemplateTypeDeduction, and see that templates have two types deduced:
 	//		the first type is in brackets, eg template<typename T>
-	//		the first type is for the parameter, eg void func(T obj); where T can be be slightly different (such as const/volitile (cv) qualifiers) or have references appended.
+	//		the second type is for the parameter, eg void func(T obj); where T can be be slightly different (such as const/volitile (cv) qualifiers) or have references appended.
 
 	//HINT: mouse over the VARIABLE name in VS to see evaluated types
 
