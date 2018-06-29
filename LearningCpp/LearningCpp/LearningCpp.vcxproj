@@ -122,6 +122,7 @@
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="4. avoidingdeadlock.cpp" />
+    <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_universal_references.cpp" />
     <ClCompile Include="E_modern_cpp\fowardsmoves_move_and_forward.cpp" />
     <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />

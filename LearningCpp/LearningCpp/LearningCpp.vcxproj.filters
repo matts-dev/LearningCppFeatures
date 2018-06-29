@@ -534,6 +534,9 @@
     <ClCompile Include="E_modern_cpp\forwardsmoves_universal_references.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

@@ -62,13 +62,9 @@ namespace
 			//try compiling this with an lvalue, it will work!
 		}
 	};
-
-
-	
 }
 
-
-int main()
+static int main_v()
 {
 	//universal references can determine whether they're looking at an rvalue reference or an lvalue reference
 	Exp obj;
