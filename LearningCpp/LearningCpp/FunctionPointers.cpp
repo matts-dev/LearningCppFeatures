@@ -32,7 +32,7 @@ void funcptrs(){
 	(*voidptr)();
 
 	//More implicit way of doing function pointers
-	void(*voitptr2) = talk;		//no address operator show	[ALSO no paranethesis]
+	void(*voitptr2)() = talk;		//no address operator show	[ALSO no paranethesis]
 	voidptr();					//no dereference shown
 
 	//function pointer to int with no arguments (explicit style)

@@ -543,6 +543,12 @@
     <ClCompile Include="E_modern_cpp\forwardsmoves_universalrefoverloadtechniques_templatemetaprogramming.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\forwardsmoves_reference_collapsing.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\log.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

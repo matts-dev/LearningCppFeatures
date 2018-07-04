@@ -75,6 +75,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -83,6 +84,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -93,6 +95,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -107,6 +110,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -124,9 +128,11 @@
     <ClCompile Include="4. avoidingdeadlock.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_avoidoverloadingonuniversalrefs.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp" />
+    <ClCompile Include="E_modern_cpp\forwardsmoves_reference_collapsing.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_universalrefoverloadtechniques_templatemetaprogramming.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_universal_references.cpp" />
     <ClCompile Include="E_modern_cpp\fowardsmoves_move_and_forward.cpp" />
+    <ClCompile Include="E_modern_cpp\log.cpp" />
     <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />
     <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp" />
     <ClCompile Include="BasicClass.cpp" />

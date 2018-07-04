@@ -116,10 +116,12 @@ void classoverloads(){
 	cout << b2c << endl;
 
 	fraction a12(1, 2);
+
+
 	//using implicit conversion
-	cout << "overload esoterics, 1/2 - 10: " << a12 - 10 << endl;
+	//cout << "overload esoterics, 1/2 - 10: " << a12 - 10 << endl; //without language extensions, this doesn't find correct operator, and it isn't trivial to solve. error C2679: Maybe I'll come back to it later, but I am just trying to get things compiling without the stupid MSVC language extensions!
 	//no implicit convesion for 10 using member overloads, must switch to non-member overload
-	cout << "overload esoterics, 10 - 1/2 " << 10 - a12 << endl;
+	//cout << "overload esoterics, 10 - 1/2 " << 10 - a12 << endl; //without language extensions, this doesn't find correct operator, and it isn't trivial to solve. error C2679: 
 }
 
 //self test

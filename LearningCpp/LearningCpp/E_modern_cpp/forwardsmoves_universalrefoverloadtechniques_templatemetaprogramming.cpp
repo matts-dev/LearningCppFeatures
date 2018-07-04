@@ -155,7 +155,7 @@ namespace
 	};
 }
 
-int main()
+static int main_v()
 {
 	//universal references are very greedy, especially when it comes to overloads (see forwardsmoves_avoidoverloadingonuniversalrefs.cpp).
 	//however, there can be situations where overloading is necessary, and it is nice to overload on a function that takes a universal reference.

@@ -23,8 +23,9 @@ public:
 //Prototypes
 void broken(void);
 void brokenWrapper(void);
-void idontexcept(void);
-void customException(void) throw(MyException, exception);
+void idontexcept(void) throw();
+//void customException(void) throw(MyException, exception); //MSVC doesn't implement custom exception specifications
+void customException(void);
 
 //You can make specific error message objets
 const MyException A("premade exception: A");
@@ -57,7 +58,10 @@ void idontexcept(void) throw(){
 }
 
 //Mehod *suggests* throws 2 exceptions; other exceptions could be thrown
-void customException(void) throw(MyException, exception) {
+//void customException(void) throw(MyException, exception) { //MSVC doesn't implement custom 
+void customException(void)
+{
+	
 	srand((int) time(0));
 	int x = (int)(rand() % 4);
 	if (x == 2){

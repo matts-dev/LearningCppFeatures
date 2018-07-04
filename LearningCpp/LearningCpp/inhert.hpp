@@ -28,3 +28,4 @@ namespace Inherit {
 		void botOnly() {cout << "this is only available in the bottom subclass" << endl;}
 	};
 }// end namespace inherit
+

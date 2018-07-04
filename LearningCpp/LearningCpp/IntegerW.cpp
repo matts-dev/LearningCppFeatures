@@ -37,7 +37,11 @@ ostream& operator<< (ostream& ostrm, IntegerW& obj){
 	return ostrm;
 }
 
-
+ostream& operator<< (ostream& ostrm, IntegerW&& obj)
+{
+	ostrm << obj.value;
+	return ostrm;
+}
 
 
 //IntegerW operator+ (IntegerW&lhs, IntegerW&rhs){

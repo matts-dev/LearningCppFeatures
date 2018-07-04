@@ -3,7 +3,7 @@
 
 namespace
 {
-	void log(char* msg) { std::cout << msg << std::endl; }
+	void log(const char* msg) { std::cout << msg << std::endl; }
 
 	void function_v(short x)
 	{

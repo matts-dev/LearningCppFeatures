@@ -73,7 +73,7 @@ void strings(void){
 	//front position find
 	size_t frontPosition = numberStr.find('E');	//size_t gaurantees ability to hold index value
 	//back position find
-	int backPosition = numberStr.rfind('E');	//can also use int, but not gauranteed
+	size_t backPosition = numberStr.rfind('E');	//can also use int, but not guaranteed to be large enough
 	cout << "front \'E\': " << (unsigned)frontPosition << " back \'E\': " << backPosition << endl;
 
 	//find can be used to find substrings!

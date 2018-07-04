@@ -4,7 +4,7 @@
 
 namespace
 {
-	void log(char* msg){std::cout << msg << std::endl;}
+	void log(const char* msg){std::cout << msg << std::endl;}
 
 	constexpr unsigned BufferSize = 10;
 	using BufferType = int[BufferSize];

@@ -15,8 +15,8 @@ public:
 	IntegerW& operator++ ();		//prefix
 	IntegerW operator++ (int x);	//postfixf
 	friend ostream& operator<< (ostream& ostrm, IntegerW& obj);
+	friend ostream& operator<< (ostream& ostrm, IntegerW&& obj);
 };
-
 
 //friend IntegerW osperator+ (IntegerW&lhs, IntegerW&rhs);
 //friend IntegerW operator+= (IntegerW&lhs, IntegerW&rhs);
