@@ -537,6 +537,12 @@
     <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\forwardsmoves_avoidoverloadingonuniversalrefs.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\forwardsmoves_universalrefoverloadtechniques_templatemetaprogramming.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -582,6 +588,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="E_modern_cpp\Upimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E_modern_cpp\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

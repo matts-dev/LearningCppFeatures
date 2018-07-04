@@ -110,7 +110,7 @@ namespace
 	}
 }
 
-int main()
+static int main_v()
 {
 	//note: I will be moving from obj multiple times in these examples, which is abnormal, but since obj doesn't really have move semantics and it is useful to use a single variable for examples
 	DemoTypeV obj;
