@@ -53,7 +53,7 @@ namespace
 	};
 }
 
-int main()
+static int main_v()
 {
 	template_function_design_consideration(TypeV1()); //internally calls the move ctor because its provided
 	template_function_design_consideration(TypeV2()); //internally calls the copy ctor because no move ctor is avaiable; this is why you should write generic functions with the mindset that as if they will perform copies!
