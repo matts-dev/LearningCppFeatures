@@ -40,13 +40,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -128,6 +128,7 @@
     <ClCompile Include="4. avoidingdeadlock.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_avoidoverloadingonuniversalrefs.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp" />
+    <ClCompile Include="E_modern_cpp\forwardsmoves_movesemanticscaveats.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_reference_collapsing.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_universalrefoverloadtechniques_templatemetaprogramming.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_universal_references.cpp" />

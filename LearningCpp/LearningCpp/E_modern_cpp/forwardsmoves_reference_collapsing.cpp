@@ -26,7 +26,7 @@ namespace rc
 }
 
 using namespace rc;
-int main()
+static int main_v()
 {
 	Type lvalue;
 
