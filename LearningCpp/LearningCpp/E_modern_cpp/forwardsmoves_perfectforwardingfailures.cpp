@@ -61,7 +61,7 @@ namespace
 	}
 }
 
-int main()
+static int main_v()
 {
 	//perfect forwarding works in most cases, but here are a few situations where it fails.
 	//1. When used with braced initialziers

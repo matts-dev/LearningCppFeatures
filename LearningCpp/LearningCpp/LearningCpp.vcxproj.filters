@@ -555,6 +555,9 @@
     <ClCompile Include="E_modern_cpp\forwardsmoves_perfectforwardingfailures.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\lambdas_basics.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
