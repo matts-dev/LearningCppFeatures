@@ -1,7 +1,7 @@
 #include<iostream>
 #include<memory>
 #include <functional>
-int main()
+static int main_v()
 {
 	class Car
 	{
