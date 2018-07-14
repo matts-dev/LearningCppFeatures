@@ -135,6 +135,7 @@
     <ClCompile Include="E_modern_cpp\forwardsmoves_universal_references.cpp" />
     <ClCompile Include="E_modern_cpp\fowardsmoves_move_and_forward.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_basics.cpp" />
+    <ClCompile Include="E_modern_cpp\lambdas_bindvslambdacpp.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_cpp14_genericlambdas.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_cpp14initcapturemode_and_moves.cpp" />
     <ClCompile Include="E_modern_cpp\log.cpp" />

@@ -567,6 +567,9 @@
     <ClCompile Include="E_modern_cpp\lambdas_cpp14_genericlambdas.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\lambdas_bindvslambdacpp.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
