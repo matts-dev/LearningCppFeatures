@@ -570,6 +570,12 @@
     <ClCompile Include="E_modern_cpp\lambdas_bindvslambdacpp.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\multithreading\taskbased_vs_threadbased.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_modern_cpp\multithreading\async_launch_params.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

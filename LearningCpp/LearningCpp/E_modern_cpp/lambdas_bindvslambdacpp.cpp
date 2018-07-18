@@ -33,7 +33,7 @@ namespace
 }
 
 
-int main()
+static int main_v()
 {
 	{
 		//show two equivalent ways of creating function objects, one through bind, the other through lambdas

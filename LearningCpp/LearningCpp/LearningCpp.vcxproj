@@ -139,6 +139,8 @@
     <ClCompile Include="E_modern_cpp\lambdas_cpp14_genericlambdas.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_cpp14initcapturemode_and_moves.cpp" />
     <ClCompile Include="E_modern_cpp\log.cpp" />
+    <ClCompile Include="E_modern_cpp\multithreading\async_launch_params.cpp" />
+    <ClCompile Include="E_modern_cpp\multithreading\taskbased_vs_threadbased.cpp" />
     <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_avoiddefaultcapture.cpp" />
     <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp" />
