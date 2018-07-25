@@ -9,7 +9,7 @@ namespace
 	}
 }
 
-int main()
+static int main_v()
 {
 	//there's two async launch policies; deferred and async.
 

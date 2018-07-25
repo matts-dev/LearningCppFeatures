@@ -140,9 +140,12 @@
     <ClCompile Include="E_modern_cpp\lambdas_cpp14initcapturemode_and_moves.cpp" />
     <ClCompile Include="E_modern_cpp\log.cpp" />
     <ClCompile Include="E_modern_cpp\multithreading\async_launch_params.cpp" />
+    <ClCompile Include="E_modern_cpp\multithreading\makethreadsunjoinable.cpp" />
     <ClCompile Include="E_modern_cpp\multithreading\taskbased_vs_threadbased.cpp" />
     <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_avoiddefaultcapture.cpp" />
+    <ClCompile Include="sketches\inherting_implementation\driver_main.cpp" />
+    <ClCompile Include="sketches\inherting_implementation\InheritImpl.cpp" />
     <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp" />
     <ClCompile Include="BasicClass.cpp" />
     <ClCompile Include="c system errors - errno.cpp" />
@@ -291,6 +294,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E_modern_cpp\log.h" />
+    <ClInclude Include="sketches\inherting_implementation\InheritImpl.h" />
     <ClInclude Include="Pimpl_Inheritance\Base_Pimpl.h" />
     <ClInclude Include="Pimpl_Inheritance\Child_Pimpl.h" />
     <ClInclude Include="FriendAndInheritance.h" />
