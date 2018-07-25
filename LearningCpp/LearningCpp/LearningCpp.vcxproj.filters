@@ -585,6 +585,9 @@
     <ClCompile Include="E_modern_cpp\multithreading\makethreadsunjoinable.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\multithreading\async_dtors.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

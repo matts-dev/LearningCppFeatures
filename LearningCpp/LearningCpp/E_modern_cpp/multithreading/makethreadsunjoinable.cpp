@@ -38,7 +38,7 @@ private:
 	std::thread t; //last because it's good practice to put members dependent on other members... after the member they dependent on. 
 }; //end RAII thread class
 
-int main()
+static int main_v()
 {
 	//joinable threads: 
 	//	1. thread that could be running 
