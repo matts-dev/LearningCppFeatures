@@ -13,19 +13,18 @@ namespace
 	}
 } 
 
-int main()
+static int main_v()
 {
 	std::cout << "launching deferred async with immediate dtor, if it calls join (it shouldn't) then there will be a delay before dtor message is printed" << std::endl;
 	{
 		std::future<void> future_deferred = std::async(std::launch::deferred, &worker);
-	}
+	} //future's dtor called here
 	std::cout << "deferred std::async dtor called." << std::endl << std::endl;
-
 
 	std::cout << "launching async that is done concurrently, its dtor will be called immediately. If it blocks, the the dtor called join!" << std::endl;
 	{
 		std::future<void> future_concurrent = std::async(std::launch::async, &worker);
-	}
+	} //future's dtor called here.
 	std::cout << "async std::async dtor called." << std::endl << std::endl;
 
 
