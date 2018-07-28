@@ -56,7 +56,7 @@ namespace
 	}
 }
 
-int main()
+static int main_v()
 {
 	{
 		//you could perhaps define these in some namespace or static class scope

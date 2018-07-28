@@ -591,6 +591,9 @@
     <ClCompile Include="E_modern_cpp\multithreading\void_future_events.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E_modern_cpp\multithreading\atomics_and_volitiles.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
