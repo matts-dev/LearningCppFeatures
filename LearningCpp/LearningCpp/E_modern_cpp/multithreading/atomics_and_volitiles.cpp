@@ -4,7 +4,8 @@
 
 namespace
 {
-	//atomcis not only ensure atomic operations, but they prevent compiler reordering of statements around the atomic (and it writes assembly that prevents hardware reordering)
+	//atomics not only ensure atomic operations, but they prevent compiler reordering of statements around the atomic (and it writes assembly that prevents hardware reordering)
+	//no code preceeding an atomic may be reordered before the atomic is used
 	std::atomic<int> atomic_int = 0;
 	int just_a_int = 0;
 
@@ -33,7 +34,7 @@ namespace
 	//volatile just prevents certain optimizations from removing special memory calls
 }
 
-int main()
+static int main_v()
 {
 	{
 		std::cout << "not using atomics" << std::endl;

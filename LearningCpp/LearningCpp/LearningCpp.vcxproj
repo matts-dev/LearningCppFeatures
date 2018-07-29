@@ -126,6 +126,7 @@
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="4. avoidingdeadlock.cpp" />
+    <ClCompile Include="E_modern_cpp\emplacement.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_avoidoverloadingonuniversalrefs.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_forwarduniversal_movervalue.cpp" />
     <ClCompile Include="E_modern_cpp\forwardsmoves_movesemanticscaveats.cpp" />
