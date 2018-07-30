@@ -19,7 +19,7 @@ namespace //make LoudType static to this .cpp
 	};
 }
 
-int main()
+static int main_v()
 {
 	std::vector<LoudType> vec;
 	vec.reserve(100); //preallocates memory without calling any ctors; good for preventing early buffer expansions
