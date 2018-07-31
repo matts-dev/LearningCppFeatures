@@ -155,6 +155,28 @@ namespace
 		make_pairs(p1, p2);			//call basecase function on first two
 		make_pairs(remaining...);	//expand into next call, this will either be base case or a recursive call
 	}
+
+	//-----------------------------------------------------------
+	template <typename T>
+	T operation(T arg)
+	{
+		return arg * arg / 2;
+	}
+
+	template <typename T>
+	double expand_function(T arg)
+	{
+		//base case
+		return operation(arg);
+	}
+	
+	template <typename T, typename... Ts>
+	double expand_function(T item, Ts... remaining)
+	{
+		//recursive call
+		return operation(item) + expand_function(operation(remaining)...);
+	}
+
 }
 
 int main()
@@ -165,6 +187,8 @@ int main()
 	print_driver("hello", "there", "this", "is", "variadic", "print", 65, 'a', 333.33f, true, 45.0);
 
 	make_pairs("1", 1, 2, "2", 3.3, "3.3", 4, '4', 4.5, 4.5f);
+
+	std::cout << expand_function(1.0, 2.0, 3.0, 4.0) << std::endl;
 
 	std::cin.get();
 }
