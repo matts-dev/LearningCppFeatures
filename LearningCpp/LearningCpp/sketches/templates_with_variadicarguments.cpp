@@ -179,7 +179,7 @@ namespace
 
 }
 
-int main()
+static int main_v()
 {
 	variadic_function(5, 5.5, 'c');
 

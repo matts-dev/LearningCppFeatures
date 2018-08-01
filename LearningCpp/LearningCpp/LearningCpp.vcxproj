@@ -262,6 +262,7 @@
     <ClCompile Include="sizeofkeyword.cpp" />
     <ClCompile Include="sketch.cpp" />
     <ClCompile Include="sketches\templates_with_variadicarguments.cpp" />
+    <ClCompile Include="sketches\thread_launching_caveats.cpp" />
     <ClCompile Include="stacks.cpp" />
     <ClCompile Include="staticcast.cpp" />
     <ClCompile Include="StaticVsAutomaticStorage.cpp" />
