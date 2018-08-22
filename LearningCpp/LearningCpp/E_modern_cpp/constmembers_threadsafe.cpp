@@ -22,7 +22,7 @@ namespace
 
 		void thread_safe() const
 		{
-			std::lock_guard<M> lock();
+			std::lock_guard<std::mutex> lock(m);
 			if (!flag_cached)
 			{
 				flag_cached = true;

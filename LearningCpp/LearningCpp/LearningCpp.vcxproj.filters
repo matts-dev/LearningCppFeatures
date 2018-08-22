@@ -603,6 +603,12 @@
     <ClCompile Include="sketches\thread_launching_caveats.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sketches\typedefing_smartpointers.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\smart_property_tests\SmartPropertyTest.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -654,6 +660,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sketches\inherting_implementation\InheritImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\smart_property_tests\SmartPointerTypedefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

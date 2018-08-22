@@ -20,7 +20,7 @@ namespace{
 	}
 }
 
-int main()
+static int main_v()
 {
 	M obj;
 

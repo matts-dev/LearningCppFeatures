@@ -261,8 +261,10 @@
     <ClCompile Include="sets.cpp" />
     <ClCompile Include="sizeofkeyword.cpp" />
     <ClCompile Include="sketch.cpp" />
+    <ClCompile Include="sketches\smart_property_tests\SmartPropertyTest.cpp" />
     <ClCompile Include="sketches\templates_with_variadicarguments.cpp" />
     <ClCompile Include="sketches\thread_launching_caveats.cpp" />
+    <ClCompile Include="sketches\typedefing_smartpointers.cpp" />
     <ClCompile Include="stacks.cpp" />
     <ClCompile Include="staticcast.cpp" />
     <ClCompile Include="StaticVsAutomaticStorage.cpp" />
@@ -307,6 +309,7 @@
     <ClInclude Include="JakesQuestionOnFields.h" />
     <ClInclude Include="RAII_ThreadDtorJoin.hpp" />
     <ClInclude Include="E_modern_cpp\Upimpl.h" />
+    <ClInclude Include="sketches\smart_property_tests\SmartPointerTypedefs.h" />
     <ClInclude Include="verboseclasses.h" />
     <ClInclude Include="copyinstance.hpp" />
     <ClInclude Include="DummyClass.h" />

@@ -15,16 +15,19 @@ static int main_v()
 	auto& ref = val; //evaluates int&
 
 	auto* ptr = &val; //evaluates to pointer
+	auto ptr2 = &val;
 
 	auto&& rvalue_ref1 = val;		//evaluates to int&				because val is lvalue (this is from special template param rules)
 	auto&& rvalue_ref2 = constval;	//evaluates to const int&		because val is lvalue (again, this is the special template param rule)
-	auto&& rvalue_ref3 = 5;			//evalutes to int&&				because 5 is an rvalue
-
+	auto&& rvalue_ref3 = 5;			//evaluates to int&&				because 5 is an rvalue
 	
 	auto obj1(5);		//evaluates to int
 	auto obj2 = 5;		//evaluates to int
 	auto obj3{ 5 };     //sometimes an exception, sometimes not -- this msvs compiler evalutes to int
 	auto obj4 = { 5 };	//exception to param rule, this evalutes to initializer_list
+
+	const auto& test1 = val; //const int&
+	
 
 	std::cin.get();
 }
