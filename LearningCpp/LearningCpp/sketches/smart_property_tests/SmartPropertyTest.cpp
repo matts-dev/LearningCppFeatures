@@ -41,8 +41,10 @@ namespace
 	struct Demo
 	{
 		smart_property<int> x;
+		smart_property<int> y;
+		smart_property<int> z;
 
-		Demo() : x(this, 5)
+		Demo() : x(this, 5), y(this, 6), z(this, 7)
 		{
 		}
 	};

@@ -11,6 +11,9 @@ using sp = std::shared_ptr<T>;
 template<typename T>
 const auto new_sp = std::make_shared<T>;
 
+template<typename T>
+const auto newsp = std::make_shared<T>;
+
 //option 2 for shared pointers
 template<typename T>
 using sptr = std::shared_ptr<T>;
@@ -32,8 +35,8 @@ using up = std::unique_ptr<T>;
 template<typename T>
 const auto new_up = std::make_unique<T>;
 
-
-
+template<typename T>
+const auto newup = std::make_unique<T>;
 
 //functions from this
 template<typename T>
@@ -74,12 +77,28 @@ namespace{
 
 		up<EG_Class> up1 = new_up<EG_Class>();
 		up1->doWork();
+
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			
+		}
 	}
 }
 
 
-int main()
-{
-	true_main();
-	std::cin.get();
-}
+//int main()
+//{
+//	true_main();
+//	std::cin.get();
+//}

@@ -609,6 +609,36 @@
     <ClCompile Include="sketches\smart_property_tests\SmartPropertyTest.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sketches\experiments\strangemoves.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\EnumForwardDeclare\Tester.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\EnumForwardDeclare\EnumDeclaration.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\EnumForwardDeclare\MainDriver.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\UsingTieToUnpack.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement\exploring_size_overload_member_new_delete.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement\global_new_delete_overloads.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement\member_new_delete_overloads.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\newdelete_quicktests.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -663,6 +693,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sketches\smart_property_tests\SmartPointerTypedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\EnumForwardDeclare\Tester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\EnumForwardDeclare\ForwardDeclareThis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

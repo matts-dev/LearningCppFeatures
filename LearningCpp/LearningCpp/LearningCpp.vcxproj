@@ -148,6 +148,14 @@
     <ClCompile Include="E_modern_cpp\multithreading\void_future_events.cpp" />
     <ClCompile Include="E_modern_cpp\using_pimpl_with_unique_ptrs.cpp" />
     <ClCompile Include="E_modern_cpp\lambdas_avoiddefaultcapture.cpp" />
+    <ClCompile Include="MemoryManagement\exploring_size_overload_member_new_delete.cpp" />
+    <ClCompile Include="MemoryManagement\global_new_delete_overloads.cpp" />
+    <ClCompile Include="MemoryManagement\member_new_delete_overloads.cpp" />
+    <ClCompile Include="sketches\EnumForwardDeclare\EnumDeclaration.cpp" />
+    <ClCompile Include="sketches\EnumForwardDeclare\MainDriver.cpp" />
+    <ClCompile Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.cpp" />
+    <ClCompile Include="sketches\EnumForwardDeclare\Tester.cpp" />
+    <ClCompile Include="sketches\experiments\strangemoves.cpp" />
     <ClCompile Include="sketches\inherting_implementation\driver_main.cpp" />
     <ClCompile Include="sketches\inherting_implementation\InheritImpl.cpp" />
     <ClCompile Include="Pimpl_Inheritance\Base_Pimpl.cpp" />
@@ -261,10 +269,12 @@
     <ClCompile Include="sets.cpp" />
     <ClCompile Include="sizeofkeyword.cpp" />
     <ClCompile Include="sketch.cpp" />
+    <ClCompile Include="sketches\newdelete_quicktests.cpp" />
     <ClCompile Include="sketches\smart_property_tests\SmartPropertyTest.cpp" />
     <ClCompile Include="sketches\templates_with_variadicarguments.cpp" />
     <ClCompile Include="sketches\thread_launching_caveats.cpp" />
     <ClCompile Include="sketches\typedefing_smartpointers.cpp" />
+    <ClCompile Include="sketches\UsingTieToUnpack.cpp" />
     <ClCompile Include="stacks.cpp" />
     <ClCompile Include="staticcast.cpp" />
     <ClCompile Include="StaticVsAutomaticStorage.cpp" />
@@ -302,6 +312,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E_modern_cpp\log.h" />
+    <ClInclude Include="sketches\EnumForwardDeclare\ForwardDeclareThis.h" />
+    <ClInclude Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.h" />
+    <ClInclude Include="sketches\EnumForwardDeclare\Tester.h" />
     <ClInclude Include="sketches\inherting_implementation\InheritImpl.h" />
     <ClInclude Include="Pimpl_Inheritance\Base_Pimpl.h" />
     <ClInclude Include="Pimpl_Inheritance\Child_Pimpl.h" />
