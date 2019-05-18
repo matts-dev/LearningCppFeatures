@@ -37,7 +37,7 @@ namespace
 	}
 }
 
-int main()
-{
-	true_main();
-}
+//int main()
+//{
+//	true_main();
+//}

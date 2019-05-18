@@ -143,6 +143,7 @@ namespace
 	struct BadChild : public BadBase
 	{
 		//incorrectly inherits and will call the base's new operator
+		int state_ObjIsNowLargerInBytesThanParent = 0;
 	};
 	//////////////////////////////////////////////////////////////////////
 	struct DeleteMatcher
@@ -250,7 +251,7 @@ namespace
 		delete polymorphicPtr; //the answer is: yes if the dtor is virtual, if not the WRONG delete will be called!
 
 		//pitfall: operator new is inherited
-		BadChild* badChild = new BadChild; // calls the BASE class new!
+		BadChild* badChild = new BadChild; // calls the BASE class new! (but it does call correct amount of requested bytes)
 		delete badChild;
 
 		//will attempt to match delete that most closely matches new
