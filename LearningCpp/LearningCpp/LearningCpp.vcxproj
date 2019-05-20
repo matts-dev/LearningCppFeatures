@@ -152,6 +152,7 @@
     <ClCompile Include="MemoryManagement\exploring_size_overload_member_new_delete.cpp" />
     <ClCompile Include="MemoryManagement\global_new_delete_overloads.cpp" />
     <ClCompile Include="MemoryManagement\member_new_delete_overloads.cpp" />
+    <ClCompile Include="sketches\casting_implicit_construction_gotcha.cpp" />
     <ClCompile Include="sketches\EnumForwardDeclare\EnumDeclaration.cpp" />
     <ClCompile Include="sketches\EnumForwardDeclare\MainDriver.cpp" />
     <ClCompile Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.cpp" />

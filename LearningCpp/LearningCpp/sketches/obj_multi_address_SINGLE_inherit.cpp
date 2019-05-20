@@ -27,7 +27,7 @@ namespace
 		return 0;
 	}
 }
-int main()
-{
-	true_main();
-}
+//int main()
+//{
+//	true_main();
+//}
