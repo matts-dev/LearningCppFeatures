@@ -91,6 +91,11 @@ static int main_v()
 
 	//std::auto_ptr should be avoided! its like a unique pointer but worse!
 	{
+
+//auto ptr is not in cpp17
+		
+#define DISABLE_FOR_CPP17 
+#ifndef DISABLE_FOR_CPP17
 		std::auto_ptr<M> dep_aptr = std::auto_ptr<M>(new M());
 		dep_aptr->doWork();
 
@@ -105,6 +110,7 @@ static int main_v()
 		//container[0]->doWork(); //cannot store the transfer ptr in the container, so better not call this
 
 		//ALWAYS prefer unique pointer, don't use autoptr... its removed in cpp17
+#endif
 	}
 
 	//unique pointers are small like raw pointers, but have their lifetime managed! 

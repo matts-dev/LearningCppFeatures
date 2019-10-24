@@ -18,6 +18,8 @@ namespace
 static 
 int main_v()
 {
+#define DISABLE_FOR_CPP17 //allocator deprecations
+#ifndef DISABLE_FOR_CPP17
 	size_t size = 4;
 
 	std::allocator<A> alloc;
@@ -54,5 +56,7 @@ int main_v()
 
 	start = avail = end = stop = nullptr;
 	std::cin.get();
+#endif
 	return 0;
+
 }

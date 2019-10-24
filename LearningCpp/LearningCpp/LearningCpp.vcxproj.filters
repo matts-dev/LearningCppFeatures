@@ -654,6 +654,30 @@
     <ClCompile Include="sketches\casting_implicit_construction_gotcha.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sketches\TemplateTranslationUnitTests\TranslationUnit_A.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\TemplateTranslationUnitTests\AppUsingTranslationUnits.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\TemplateTranslationUnitTests\TranslationUnit_B.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\forward_template_call_tests.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\DynamicCasts_Vs_SetBasedRTTI.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\RandomDistributionCreation.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\function_name_macros.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\Tests\TestComponentSystemPerformance.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -717,6 +741,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\TemplateTranslationUnitTests\TemplateWithStaticLocals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\Resources\IterableHashSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\Resources\shared_ptrs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\ProfileUtils\ScopedTiming.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
