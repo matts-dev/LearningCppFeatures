@@ -97,7 +97,7 @@ int main()
 			up_collection[elementIdx]->virtualCallFunc();
 		}
 	}
-
+	
 
 	{ScopedTimer perf("raw ptr calling virtual function");
 		for (size_t elementIdx = 0; elementIdx < numElements; ++elementIdx)
@@ -121,7 +121,7 @@ int main()
 				aObj->functionOfA();
 			}
 		}
-	}
+	} 
 
 	std::cout << "ending test" << preventOptimization << std::endl;
 }
