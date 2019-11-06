@@ -678,6 +678,9 @@
     <ClCompile Include="Profiling\Tests\TestComponentSystemPerformance.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Profiling\Tests\shared_vs_weak_ptr.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

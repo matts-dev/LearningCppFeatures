@@ -158,6 +158,7 @@
     <ClCompile Include="MemoryManagement\member_new_delete_overloads.cpp" />
     <ClCompile Include="Profiling\DynamicCasts_Vs_SetBasedRTTI.cpp" />
     <ClCompile Include="Profiling\RandomDistributionCreation.cpp" />
+    <ClCompile Include="Profiling\Tests\shared_vs_weak_ptr.cpp" />
     <ClCompile Include="Profiling\Tests\TestComponentSystemPerformance.cpp" />
     <ClCompile Include="sketches\casting_implicit_construction_gotcha.cpp" />
     <ClCompile Include="sketches\EnumForwardDeclare\EnumDeclaration.cpp" />

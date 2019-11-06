@@ -149,7 +149,7 @@ namespace
 			static_assert(std::is_base_of<Component, ComponentType>::value);
 			static size_t this_type_index = nextIndex++; //first time this is called, it gets a new index for fast compile time lookup
 
-			if (components.size() <= this_type_index + 1)
+			if (components.size() < this_type_index + 1)
 			{
 				components.resize(this_type_index + 1, nullptr);
 			}
@@ -915,38 +915,38 @@ else if (i % total == index)\
 	//}
 }
 
-int main()
-{
-	volatile int preventOptimization = 0;
-	std::cout << "starting getter scale test" << preventOptimization << std::endl;
-
-	const size_t numberOfGetsInTest = 1000000;
-	scaleTest_get_A(numberOfGetsInTest);
-	scaleTest_get_A(numberOfGetsInTest * 2);
-	scaleTest_get_A(numberOfGetsInTest * 4);
-	scaleTest_get_A(numberOfGetsInTest * 8);
-	scaleTest_get_A(numberOfGetsInTest * 16);
-
-	std::cout << "---------------------------------------------------------------------" << std::endl;
-	scaleTest_getRandom(numberOfGetsInTest);
-	scaleTest_getRandom(numberOfGetsInTest * 2);
-	scaleTest_getRandom(numberOfGetsInTest * 4);
-	scaleTest_getRandom(numberOfGetsInTest * 8);
-	scaleTest_getRandom(numberOfGetsInTest * 16);
-
-	std::cout << "---------------------------------------------------------------------" << std::endl;
-	scaleTest_cycle(numberOfGetsInTest);
-	scaleTest_cycle(numberOfGetsInTest * 2);
-	scaleTest_cycle(numberOfGetsInTest * 4);
-	scaleTest_cycle(numberOfGetsInTest * 8);
-	scaleTest_cycle(numberOfGetsInTest * 16);
-	
-	std::cout << "---------------------------------------------------------------------" << std::endl;
-	scaleTest_cycleBig(numberOfGetsInTest);
-	scaleTest_cycleBig(numberOfGetsInTest * 2);
-	scaleTest_cycleBig(numberOfGetsInTest * 4);
-	scaleTest_cycleBig(numberOfGetsInTest * 8);
-	scaleTest_cycleBig(numberOfGetsInTest * 16);
-
-	std::cout << "ending getter scale test" << preventOptimization << std::endl;
-}
+//int main()
+//{
+//	volatile int preventOptimization = 0;
+//	std::cout << "starting getter scale test" << preventOptimization << std::endl;
+//
+//	const size_t numberOfGetsInTest = 1000000;
+//	scaleTest_get_A(numberOfGetsInTest);
+//	scaleTest_get_A(numberOfGetsInTest * 2);
+//	scaleTest_get_A(numberOfGetsInTest * 4);
+//	scaleTest_get_A(numberOfGetsInTest * 8);
+//	scaleTest_get_A(numberOfGetsInTest * 16);
+//
+//	std::cout << "---------------------------------------------------------------------" << std::endl;
+//	scaleTest_getRandom(numberOfGetsInTest);
+//	scaleTest_getRandom(numberOfGetsInTest * 2);
+//	scaleTest_getRandom(numberOfGetsInTest * 4);
+//	scaleTest_getRandom(numberOfGetsInTest * 8);
+//	scaleTest_getRandom(numberOfGetsInTest * 16);
+//
+//	std::cout << "---------------------------------------------------------------------" << std::endl;
+//	scaleTest_cycle(numberOfGetsInTest);
+//	scaleTest_cycle(numberOfGetsInTest * 2);
+//	scaleTest_cycle(numberOfGetsInTest * 4);
+//	scaleTest_cycle(numberOfGetsInTest * 8);
+//	scaleTest_cycle(numberOfGetsInTest * 16);
+//	
+//	std::cout << "---------------------------------------------------------------------" << std::endl;
+//	scaleTest_cycleBig(numberOfGetsInTest);
+//	scaleTest_cycleBig(numberOfGetsInTest * 2);
+//	scaleTest_cycleBig(numberOfGetsInTest * 4);
+//	scaleTest_cycleBig(numberOfGetsInTest * 8);
+//	scaleTest_cycleBig(numberOfGetsInTest * 16);
+//
+//	std::cout << "ending getter scale test" << preventOptimization << std::endl;
+//}
