@@ -159,6 +159,8 @@
     <ClCompile Include="Profiling\DynamicCasts_Vs_SetBasedRTTI.cpp" />
     <ClCompile Include="Profiling\RandomDistributionCreation.cpp" />
     <ClCompile Include="Profiling\Tests\shared_vs_weak_ptr.cpp" />
+    <ClCompile Include="Profiling\Tests\SmallArraysVsMapVsHashMap.cpp" />
+    <ClCompile Include="Profiling\Tests\SmallArrayVsMapVsHashMap_multirun.cpp" />
     <ClCompile Include="Profiling\Tests\TestComponentSystemPerformance.cpp" />
     <ClCompile Include="sketches\casting_implicit_construction_gotcha.cpp" />
     <ClCompile Include="sketches\EnumForwardDeclare\EnumDeclaration.cpp" />
