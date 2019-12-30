@@ -123,42 +123,42 @@ namespace
 }
 
 
-int main()
-{
-
-	std::cout << "starting test runs" << std::endl;
-
-	std::map<std::string, std::vector<float>> timings;
-
-	//DISCLAIMER: all of these tests are operating on shared pointers, which have overhead for copying/removing
-	//size_t numToAverage = 5000;
-	size_t numToAverage = 500;
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(3, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(6, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(9, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(10, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(30, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(100, timings); }
-	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(1000, timings); }
-	//for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(10000, timings); }
-	//sizeTest(100000);
-	//sizeTest(1000000); //too large
-
-	for (auto kv_pair : timings)
-	{
-		float average = 0.f;
-		uint32_t items = 0;
-		std::vector<float>& timingsArray = kv_pair.second;
-		for (size_t idx = 0; idx < timingsArray.size(); ++idx)
-		{
-			items++;
-			average += timingsArray[idx];
-		}
-		average = average / (float)items;
-
-		std::cout << kv_pair.first << " " << average << " ns" << std::endl;
-	}
-
-
-	std::cout << "ending test runs" << std::endl;
-}
+//int main()
+//{
+//
+//	std::cout << "starting test runs" << std::endl;
+//
+//	std::map<std::string, std::vector<float>> timings;
+//
+//	//DISCLAIMER: all of these tests are operating on shared pointers, which have overhead for copying/removing
+//	//size_t numToAverage = 5000;
+//	size_t numToAverage = 500;
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(3, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(6, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(9, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(10, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(30, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(100, timings); }
+//	for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(1000, timings); }
+//	//for (size_t test = 0; test < numToAverage; ++test) { namedSizeTest(10000, timings); }
+//	//sizeTest(100000);
+//	//sizeTest(1000000); //too large
+//
+//	for (auto kv_pair : timings)
+//	{
+//		float average = 0.f;
+//		uint32_t items = 0;
+//		std::vector<float>& timingsArray = kv_pair.second;
+//		for (size_t idx = 0; idx < timingsArray.size(); ++idx)
+//		{
+//			items++;
+//			average += timingsArray[idx];
+//		}
+//		average = average / (float)items;
+//
+//		std::cout << kv_pair.first << " " << average << " ns" << std::endl;
+//	}
+//
+//
+//	std::cout << "ending test runs" << std::endl;
+//}

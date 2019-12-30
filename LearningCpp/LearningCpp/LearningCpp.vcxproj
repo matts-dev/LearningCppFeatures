@@ -158,6 +158,9 @@
     <ClCompile Include="MemoryManagement\member_new_delete_overloads.cpp" />
     <ClCompile Include="Profiling\DynamicCasts_Vs_SetBasedRTTI.cpp" />
     <ClCompile Include="Profiling\RandomDistributionCreation.cpp" />
+    <ClCompile Include="Profiling\Resources\SA_Snapshot\SAGameEntity.cpp" />
+    <ClCompile Include="Profiling\Tests\GeneratedSwitches.cpp" />
+    <ClCompile Include="Profiling\Tests\PODPool_vs_new.cpp" />
     <ClCompile Include="Profiling\Tests\shared_vs_weak_ptr.cpp" />
     <ClCompile Include="Profiling\Tests\SmallArraysVsMapVsHashMap.cpp" />
     <ClCompile Include="Profiling\Tests\SmallArrayVsMapVsHashMap_multirun.cpp" />
@@ -291,6 +294,8 @@
     <ClCompile Include="sketches\TemplateTranslationUnitTests\AppUsingTranslationUnits.cpp" />
     <ClCompile Include="sketches\TemplateTranslationUnitTests\TranslationUnit_B.cpp" />
     <ClCompile Include="sketches\TemplateTranslationUnitTests\TranslationUnit_A.cpp" />
+    <ClCompile Include="sketches\template_inl_file_test\header_A_user.cpp" />
+    <ClCompile Include="sketches\template_inl_file_test\template_use_A.cpp" />
     <ClCompile Include="sketches\thread_launching_caveats.cpp" />
     <ClCompile Include="sketches\typedefing_smartpointers.cpp" />
     <ClCompile Include="sketches\UniquePtr_Move_Issue.cpp" />
@@ -334,6 +339,8 @@
     <ClInclude Include="E_modern_cpp\log.h" />
     <ClInclude Include="Profiling\ProfileUtils\ScopedTiming.h" />
     <ClInclude Include="Profiling\Resources\IterableHashSet.h" />
+    <ClInclude Include="Profiling\Resources\SA_Snapshot\MultiDelegate.h" />
+    <ClInclude Include="Profiling\Resources\SA_Snapshot\SAGameEntity.h" />
     <ClInclude Include="Profiling\Resources\shared_ptrs.h" />
     <ClInclude Include="sketches\EnumForwardDeclare\ForwardDeclareThis.h" />
     <ClInclude Include="sketches\EnumForwardDeclare\Receiver_OnlyForwardDeclaresInHeader.h" />
@@ -347,6 +354,8 @@
     <ClInclude Include="E_modern_cpp\Upimpl.h" />
     <ClInclude Include="sketches\smart_property_tests\SmartPointerTypedefs.h" />
     <ClInclude Include="sketches\TemplateTranslationUnitTests\TemplateWithStaticLocals.h" />
+    <ClInclude Include="sketches\template_inl_file_test\inl_test.h" />
+    <ClInclude Include="sketches\template_inl_file_test\template_use_A.h" />
     <ClInclude Include="verboseclasses.h" />
     <ClInclude Include="copyinstance.hpp" />
     <ClInclude Include="DummyClass.h" />
@@ -361,6 +370,9 @@
     <Text Include="10. SelfTest.txt" />
     <Text Include="test.txt" />
     <Text Include="testFile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sketches\template_inl_file_test\inl_test.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -687,6 +687,21 @@
     <ClCompile Include="Profiling\Tests\SmallArrayVsMapVsHashMap_multirun.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Profiling\Tests\PODPool_vs_new.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\Resources\SA_Snapshot\SAGameEntity.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling\Tests\GeneratedSwitches.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\template_inl_file_test\template_use_A.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sketches\template_inl_file_test\header_A_user.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -764,6 +779,18 @@
     <ClInclude Include="Profiling\ProfileUtils\ScopedTiming.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Profiling\Resources\SA_Snapshot\MultiDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling\Resources\SA_Snapshot\SAGameEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\template_inl_file_test\inl_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sketches\template_inl_file_test\template_use_A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />
@@ -771,5 +798,10 @@
     <Text Include="10. SelfTest.txt">
       <Filter>Resource Files\Source Files\10. Standard Template Library %28STL%29</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sketches\template_inl_file_test\inl_test.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
