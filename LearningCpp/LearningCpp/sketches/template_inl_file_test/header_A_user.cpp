@@ -23,7 +23,7 @@ namespace inl_test
 	}
 }
 
-int main()
-{
-	inl_test::true_main();
-}
+//int main()
+//{
+//	inl_test::true_main();
+//}

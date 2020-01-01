@@ -702,6 +702,12 @@
     <ClCompile Include="sketches\template_inl_file_test\header_A_user.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Advanced\virtual_inheritance.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\virtual_inheritance_address_comparisons.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

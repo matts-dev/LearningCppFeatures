@@ -127,6 +127,8 @@
     <ClCompile Include="AcceleratedCPP\ch5.cpp" />
     <ClCompile Include="AcceleratedCPP\playing_with_allocators.cpp" />
     <ClCompile Include="AcceleratedCPP\template_optional_instantiation.cpp" />
+    <ClCompile Include="Advanced\virtual_inheritance.cpp" />
+    <ClCompile Include="Advanced\virtual_inheritance_address_comparisons.cpp" />
     <ClCompile Include="ArraysAndCStrings.cpp" />
     <ClCompile Include="autokeyword.cpp" />
     <ClCompile Include="4. avoidingdeadlock.cpp" />
