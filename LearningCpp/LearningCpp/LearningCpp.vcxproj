@@ -127,6 +127,12 @@
     <ClCompile Include="AcceleratedCPP\ch5.cpp" />
     <ClCompile Include="AcceleratedCPP\playing_with_allocators.cpp" />
     <ClCompile Include="AcceleratedCPP\template_optional_instantiation.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\baz.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\FooBar.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\fwddemo_main.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\x.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\y.cpp" />
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\z.cpp" />
     <ClCompile Include="Advanced\virtual_inheritance.cpp" />
     <ClCompile Include="Advanced\virtual_inheritance_address_comparisons.cpp" />
     <ClCompile Include="ArraysAndCStrings.cpp" />
@@ -338,6 +344,13 @@
     <ClCompile Include="weakptrs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\baz.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\ForwardDeclaresUser.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\barfoo.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\foobar.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\x.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\y.h" />
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\z.h" />
     <ClInclude Include="E_modern_cpp\log.h" />
     <ClInclude Include="Profiling\ProfileUtils\ScopedTiming.h" />
     <ClInclude Include="Profiling\Resources\IterableHashSet.h" />

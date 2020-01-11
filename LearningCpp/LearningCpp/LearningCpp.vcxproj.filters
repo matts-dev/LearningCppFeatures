@@ -708,6 +708,24 @@
     <ClCompile Include="Advanced\virtual_inheritance_address_comparisons.cpp">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\fwddemo_main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\baz.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\FooBar.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\x.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\y.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\z.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -795,6 +813,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sketches\template_inl_file_test\template_use_A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\foobar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\barfoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\baz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\ForwardDeclaresUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\y.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Advanced\FwdDeclareBuildTimeDemo\DemoForConversationWithBrain\z.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
